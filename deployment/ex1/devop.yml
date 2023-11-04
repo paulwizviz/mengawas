@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+
+  passwd:
+    image: ${DEVOP_IMAGE_NAME}
+    container_name: ${DEVOP_CONTAINER}
+    working_dir: /opt
+    command: ./passgen.sh

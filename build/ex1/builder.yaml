@@ -1,0 +1,31 @@
+version: '3.4'
+
+services:
+
+  device:
+    build:
+      context: ../../
+      dockerfile: ./build/ex1/device.dockerfile
+      args:
+        GO_VER: 1.21.3
+        APP_NAME: ${CLIENT_APP_NAME}
+    image: ${DEVICE_IMAGE_NAME:-mengawas/devicemock:current}
+
+  devproc:
+    build:
+      context: ../../
+      dockerfile: ./build/ex1/devproc.dockerfile
+      args:
+        GO_VER: 1.21.3
+        APP_NAME: ${CLIENT_APP_NAME}
+    image: ${DEVPROC_IMAGE_NAME:-mengawas/devprocmock:current}
+
+  devop:
+    build:
+      context: ../../
+      dockerfile: ./build/ex1/devop.dockerfile
+      args:
+        UBUNTU_VER: 18.04
+    image: ${DEVOP_IMAGE_NAME:-smqttshell:current}
+
+
