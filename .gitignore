@@ -1,0 +1,12 @@
+# macOS system file
+.DS_Store
+
+# Temp files
+assets/drawio/.*.drawio.bkp
+assets/drawio/.*.drawio.dtmp
+
+# envrc
+.envrc
+
+# psql
+dbfiles/

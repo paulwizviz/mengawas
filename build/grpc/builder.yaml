@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+
+  grpc:
+    build:
+      context: ../../
+      dockerfile: ./build/grpc/grpc.dockerfile
+      args:
+        GO_VERSION: 1.21.3
+        UBUNTU_VER: 20.04
+    image: ${GRPC_IMAGE:-lean-mqtt/grpc}
+
