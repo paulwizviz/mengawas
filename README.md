@@ -63,6 +63,16 @@ This participant is unique, its only purpose is to ensure that blockchain protoc
 
 The contributor of this project is performing the role of a Network Operator. The object of this project is to create tools to orchestrate the blockchain network for four types of entities in a hypothetical supply chain using different blockchain technologies. 
 
+## Project Scenarios
+
+In this project you will find demonstrators based on these scenarios
+
+* [Scenario 1 PoA Etheresum plus MQTT](./docs/scenario1.md)
+
+## Project Layout
+
+This project is mainly based on Go. The project layout is organised based on a service-oriented architecture as described in this blog [Design the architecture, name the components, document the details](https://paulwizviz.github.io/go/2022/12/23/go-proverb-architecture.html).
+
 ## Disclaimer
 
 * The content of this project is intended for educational purpose only.
