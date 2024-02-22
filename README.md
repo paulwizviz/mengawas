@@ -6,8 +6,8 @@ This is a **educational** project to demonstrates a blockchain-based technologie
 
 Here is the **hypothetical** supply chain network.
 
-![mengawas](./docs/img/mengawas.jpg)
-<u>Figure 1: A hypothetical blockchain network</u>
+![supplychain](./assets/jpg/supplychain.jpg)
+<u>Figure 1: A hypothetical wine making supply chain</u>
 
 Here we have a simplistic supply chain where we have raw materials (i.e. iron ore, aluminum, etc) get process into products that are sold to consumers. 
 
