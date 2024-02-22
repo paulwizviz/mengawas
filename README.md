@@ -1,77 +1,53 @@
 # Overview
 
-This is a **educational** project to demonstrates a blockchain-based technologies a commpanying technological stacks networked in a way to support a hypothethical supply chain use case.
+This is a **educational** project to demonstrates a blockchain-based technologies networked in a way to support a hypothethical wine-making supply chain.
 
-## Project context
+## Context
 
-Here is the **hypothetical** supply chain network.
+The basic steps involved in wine making process is summarised in Figure 1.
 
-![supplychain](./assets/jpg/supplychain.jpg)
-<u>Figure 1: A hypothetical wine making supply chain</u>
+![wine making](./assets/img/winemaking.webp)</br>
+**Figure 1: Basic Wine Making Steps (see [Image source](https://finding.wine/blogs/blog-posts/basic-steps-of-the-winemaking-process))**
 
-Here we have a simplistic supply chain where we have raw materials (i.e. iron ore, aluminum, etc) get process into products that are sold to consumers. 
+From a supply chain perspective, the stages characterising the chain are harvesting, processing (see Figure 1 for details), bottling, distribution and selling (see Figure 2). In between these stages are transportations to move intermediate and final products between these stages.
 
-Directly in this chain are types of organisations:
+![Supply chain](./assets/img/supplychain.jpg)</br>
+**Figure 2: The supply chain**
 
-* ID tags providers (i1 and i2);
-* Raw materials suppliers (S1 and S2);
-* Manufacturers (M1 and M2);
-* Product distributors (D1 and D2);
-* Product consumers (C1 and C2);
+## Who are we and what do we do?
 
-Not directly in the supply chains are:
+Through out this project, the use of the pronouns `we`, `our` and `us` refer to a fictional company in the role of a business network operator. 
 
-* Regulators;
-* Data analytic company (e.g. Geosptial);
-* Blockchain network operations.
+Our mission is to provide the necessary blockchain technological stack to participants in the wine making supply chain to form a peer-to-peer network.
 
-All of these participants are assigned a Blockchain node (Geth, Fabric client, Wallet, etc). These are designated Blockchain participants.
+Our role is not to engage the business activity in the supply chain.
 
-<u>Participant roles</u>
+## What problems are we trying to solve?
 
-**ID tags providers** sell id tags (e.g. NFC, barcodes, QR codes, etc) to raw materials suppliers. They also provide tag scanners to other members of the supply chain. When members use the scanner data is uploaded to the blockchain network. There could be multiple ID providers selling their own wares but as long as they share data on their blockchain network, all members of the network can easily use any ID providers.
+The country of `Alantis`, famous for making wine, is dominated by a single company, name `Acme`, who control the processing, bottling and distribution of wines. `Acme` also owns a vineyard and its chain of pubs.
 
-**Raw materials suppliers** extract the necessary raw materials for transfer to manufacturers. The suppliers tags the material, updates information about the materials they plan to ship and upload data to the blockchain.
+There are also small vineyards but they find it hard to get their grapes produced and sold directly to consumers and the price of their products are dictated by `Acme`.
 
-> NOTE:
-> In cases, where there is potential for fraud, such as supplier uploading fake data, additional data could be obtained independently, for example, in the case of Figure 1, a Geospatial company could capture the location of raw material and perform, for example, geological analysis and upload to the blockchain network. Thus we can obtain information about a product from multiple decentralised data points. The other data points could act as witness to a single event.
+`Atlantis` wine sellers and importers of wines from the country also find themselves in an unsatisfactory situation where they can only source from `Acme`.
 
-**Manufacturers** job is to transform raw materials to manufactured products. They can scan tag from raw material supplier to verify its origin. 
+The monopolies commissions `Atlantis` has ruled that `Acme's` monopoly in the country's wine supply chain is unhealthy. The government of `Atlantis` has decided to act on the ruling by opening up the supply chain to competition. There is no plan to break up `Acme` but to bring in more participants to the supply chain.
 
-> NOTE:
-> In the case of high value products where provenance of raw material is very important, the manufacturers might not just rely on information uploaded by the suppliers. It could corroborate with Geospatial company -- e.g. in the case of car batteries, cotton wool, etc -- to cross check information.
+`Atlantis` government's goal is for small Vineyards to be able to sell directly to consumers or export directly. Likewise for any company to be independent distiller (wine processing), bottling, distribution or selling or combination to compete with `Acme`. The government is also mindful of the need to regulate the industry to ensure that the necessary standards is met.
 
-Unless the product has a simple Bill-of-Material (BoM), it is rare for a manufactured product to derived directly from raw materials. Chances are there will be intermediate manufacturing processes. In reality there will be a mini-supply chain amongst suppliers.
+## What is our solution?
 
-**Distributors** buys and sells the product. The distributors may also provide apps for consumers of the product. The apps could function as a *product passport* enabling consumer to see the product information from source to endpoint.
+We have proposed to the `Atlantis` government a blockchain-based solution the details of our implementation are discussed in separate sections (see `Project Details`).
 
->NOTE: It is also possible a dedicated product passport company might provide access to the blockchain network to consumers. By separating it out from the distributors consumers could be assured that the passport comes from different participants from the distributor. We could even have multiple passport providers to ensure no cheating.
+In summary, the rationale for using a blockchain based solution are as follows:
 
-**Consumers** who wants to know about the product used apps to scan identifiers to provide obtain information about the product.
+* Enable participants in the supply chain to transact with each other on a peer-to-peer basis.
+* Providing a network effect for participants to achieve economies of scale whilst remaining independent entities to avoid anti-competitive practices.
+* Giving regulated bodies bette oversight of the supply chain and to act quickly in the event of bad practice.
+* Enabling the supply chain to be efficient.
 
-**Regulators** are responsible to ensure the provenance of the data about the product over its supply chain. It is tapped into the blockchain via its own node.
+## Project Details
 
-**Network operators** role is to provide the enabling technologies for all the blockchain participants.
-
-This participant is unique, its only purpose is to ensure that blockchain protocol works. To ensure that the network is the neutral participant it should not have a direct involvement in the supply chain. There are many ways of ensuring that:
-
-* The network operator could be an independent entity providing the technologies in an open source way.
-* The network operator could be form from a consortium consisting of members in the supply chain ensuring no single party has control over the shaped of the technology.
-* The network operator could be in the form of a foundation such as Hyperledger or Ethereum foundation where they co-ordinate the technological specification of the network and leave it to others to implement the necessary multiple solution.
-
-## Objective of this Project
-
-The contributor of this project is performing the role of a Network Operator. The object of this project is to create tools to orchestrate the blockchain network for four types of entities in a hypothetical supply chain using different blockchain technologies. 
-
-## Project Scenarios
-
-In this project you will find demonstrators based on these scenarios
-
-* [Scenario 1 PoA Etheresum plus MQTT](./docs/scenario1.md)
-
-## Project Layout
-
-This project is mainly based on Go. The project layout is organised based on a service-oriented architecture as described in this blog [Design the architecture, name the components, document the details](https://paulwizviz.github.io/go/2022/12/23/go-proverb-architecture.html).
+**TO DO**
 
 ## Disclaimer
 

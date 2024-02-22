@@ -1,5 +1,5 @@
 # macOS system file
 .DS_Store
 
-# Draw IO temp file
+# Temp files
 assets/drawio/.*.drawio.bkp
