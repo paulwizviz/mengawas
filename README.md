@@ -1,6 +1,10 @@
 # Overview
 
-This is a **educational** project to demonstrates a blockchain-based technologies networked in a way to support a hypothethical wine-making supply chain.
+This is a **educational** project to demonstrates the use of blockchain-based technologies networked in a way to support wine-making supply chain.
+
+This project is presented from the perspective of a fictional company with a mission to help businesses form networks by leveraging on blockchain technologies. When you encounter the pronouns `we`, `our` and `us`, they refer to the fictional company. This fictional company is **not** a participants in the supply chain only in the role of technology provider. 
+
+Also for the purpose of this project, fictional countries (`Atlantis`, `Wakanda` and more) and companies and personas to represent participants in the supply chain.
 
 ## Context
 
@@ -9,45 +13,31 @@ The basic steps involved in wine making process is summarised in Figure 1.
 ![wine making](./assets/img/winemaking.webp)</br>
 **Figure 1: Basic Wine Making Steps (see [Image source](https://finding.wine/blogs/blog-posts/basic-steps-of-the-winemaking-process))**
 
-From a supply chain perspective, the stages characterising the chain are harvesting, processing (see Figure 1 for details), bottling, distribution and selling (see Figure 2). In between these stages are transportations to move intermediate and final products between these stages.
+From a supply chain perspective (see Figure 2), the stages in the chain are harvesting, processing (i.e. extract juice, fermentation, pressure, filtration and aging), bottling, distribution and selling. In between these stages are transportations to move intermediate and final products between these stages.
 
 ![Supply chain](./assets/img/supplychain.jpg)</br>
 **Figure 2: The supply chain**
 
-## Who are we and what do we do?
+<u>What problems are we trying to solve?</u>
 
-Through out this project, the use of the pronouns `we`, `our` and `us` refer to a fictional company in the role of a business network operator. 
+`Alantis` is a famous wine making country. However, the country's wine making supply chain is dominated by a single company, name `Acme`, which control the processing, bottling and distribution of wines. `Acme` also owns a vineyard and its chain of pubs. `Wakanda` a major importer of `Atlantis` wines is also dissatisfied with the dorminance of `Acme`. Together with the supply chain participants in `Atlantis`, `Wakanda` lodge a complain to the `World Trading Body`.
 
-Our mission is to provide the necessary blockchain technological stack to participants in the wine making supply chain to form a peer-to-peer network.
+The `World Trading Body` came to a judgement and ruled that `Alantis` reform the wine supply chain make it more competitive. Allowing for more participants to participate in the supply chain.
 
-Our role is not to engage the business activity in the supply chain.
+Detail analysis of the challenge for `Atlantis` to reform the supply chain is documented [here](./docs/challenge.md)
 
-## What problems are we trying to solve?
+<u>A proposed solution</u>
 
-The country of `Alantis`, famous for making wine, is dominated by a single company, name `Acme`, who control the processing, bottling and distribution of wines. `Acme` also owns a vineyard and its chain of pubs.
-
-There are also small vineyards but they find it hard to get their grapes produced and sold directly to consumers and the price of their products are dictated by `Acme`.
-
-`Atlantis` wine sellers and importers of wines from the country also find themselves in an unsatisfactory situation where they can only source from `Acme`.
-
-The monopolies commissions `Atlantis` has ruled that `Acme's` monopoly in the country's wine supply chain is unhealthy. The government of `Atlantis` has decided to act on the ruling by opening up the supply chain to competition. There is no plan to break up `Acme` but to bring in more participants to the supply chain.
-
-`Atlantis` government's goal is for small Vineyards to be able to sell directly to consumers or export directly. Likewise for any company to be independent distiller (wine processing), bottling, distribution or selling or combination to compete with `Acme`. The government is also mindful of the need to regulate the industry to ensure that the necessary standards is met.
-
-## What is our solution?
-
-We have proposed to the `Atlantis` government a blockchain-based solution the details of our implementation are discussed in separate sections (see `Project Details`).
-
-In summary, the rationale for using a blockchain based solution are as follows:
+`Atlantis` government has engaged us to find a solution and we proposed one based on blockchain which we discussed in a report found [here](./docs/solution.md). The rationale for using a blockchain based solution are as follows:
 
 * Enable participants in the supply chain to transact with each other on a peer-to-peer basis.
 * Providing a network effect for participants to achieve economies of scale whilst remaining independent entities to avoid anti-competitive practices.
 * Giving regulated bodies bette oversight of the supply chain and to act quickly in the event of bad practice.
 * Enabling the supply chain to be efficient.
 
-## Project Details
+<u>The Implementations</u>
 
-**TO DO**
+The implemention of our solution is dicussed [here](./docs/implementation.md)
 
 ## Disclaimer
 
