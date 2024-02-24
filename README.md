@@ -1,10 +1,10 @@
 # Overview
 
-This is a **educational** project to demonstrates the use of blockchain-based technologies networked in a way to support wine-making supply chain.
+This is a **educational** project that demonstrates the application of blockchain-base technologies to support wine-making supply chain.
 
-This project is presented from the perspective of a fictional company with a mission to help businesses form networks by leveraging on blockchain technologies. When you encounter the pronouns `we`, `our` and `us`, they refer to the fictional company. This fictional company is **not** a participants in the supply chain only in the role of technology provider. 
+This project is presented from the perspective of a fictional company with a mission to help businesses form networks by leveraging on blockchain technologies. The narrative is presented from the viewpoint of a fictional company with the sole mission of assisting businesses in forming networks through the utilization of blockchain technologies. In instances where pronouns such as `we,` `our,` and `us` are used, they specifically refer to the fictional company. It is crucial to note that this fictional entity operates solely as a technology provider and is not a participant in the supply chain itself.
 
-Also for the purpose of this project, fictional countries (`Atlantis`, `Wakanda` and more) and companies and personas to represent participants in the supply chain.
+For clarity and focus on problem-solving steps within the project, fictional entities, including countries (`Atlantis,` `Wakanda,` etc.), companies, and personas, have been introduced. This deliberate use of fictional elements aims to prevent distractions that might arise from the association with real-world entities, allowing a more concentrated exploration of the project's problem-solving methodologies.
 
 ## Context
 
@@ -13,31 +13,33 @@ The basic steps involved in wine making process is summarised in Figure 1.
 ![wine making](./assets/img/winemaking.webp)</br>
 **Figure 1: Basic Wine Making Steps (see [Image source](https://finding.wine/blogs/blog-posts/basic-steps-of-the-winemaking-process))**
 
-From a supply chain perspective (see Figure 2), the stages in the chain are harvesting, processing (i.e. extract juice, fermentation, pressure, filtration and aging), bottling, distribution and selling. In between these stages are transportations to move intermediate and final products between these stages.
+Examining the supply chain (refer to Figure 2), the process encompasses key stages: harvesting, processing (involving juice extraction, fermentation, pressure, filtration, and aging), bottling, distribution, and selling. Transportation serves as the bridge between these stages, facilitating the movement of intermediate and final products.
+
+Simultaneously, a regulatory chain runs parallel to the physical supply chain. Its primary role is to ensure compliance with regulations, particularly in areas such as health and safety, at every stage of the physical chain.
 
 ![Supply chain](./assets/img/supplychain.jpg)</br>
 **Figure 2: The supply chain**
 
-<u>What problems are we trying to solve?</u>
+### What problems are we trying to solve?
 
 `Alantis` is a famous wine making country. However, the country's wine making supply chain is dominated by a single company, name `Acme`, which control the processing, bottling and distribution of wines. `Acme` also owns a vineyard and its chain of pubs. `Wakanda` a major importer of `Atlantis` wines is also dissatisfied with the dorminance of `Acme`. Together with the supply chain participants in `Atlantis`, `Wakanda` lodge a complain to the `World Trading Body`.
 
-The `World Trading Body` came to a judgement and ruled that `Alantis` reform the wine supply chain make it more competitive. Allowing for more participants to participate in the supply chain.
+The `World Trading Body` came to a judgement and ruled that `Alantis` must reform the wine supply chain make it more competitive. Allowing for more participants to participate in the supply chain.
 
-Detail analysis of the challenge for `Atlantis` to reform the supply chain is documented [here](./docs/challenge.md)
+For a detailed analysis of the challenges of the wine supply chain we produced a report titled ["Tides of Complexity: Examining the Supply Chain Challenges in Atlantis"](./docs/challenge.md) for the `Atlantis` government.
 
-<u>A proposed solution</u>
+### A proposed solution
 
-`Atlantis` government has engaged us to find a solution and we proposed one based on blockchain which we discussed in a report found [here](./docs/solution.md). The rationale for using a blockchain based solution are as follows:
+The `Atlantis` government enlisted our expertise to address their challenges, leading us to propose a blockchain-based solution. The rationale for this proposal is comprehensively outlined in our report titled ['Transforming Atlantis Wine Supply Chain: A Blockchain Solution.'](./docs/solution.md) In essence, the benefits of adopting blockchain technology in this context are:
 
-* Enable participants in the supply chain to transact with each other on a peer-to-peer basis.
-* Providing a network effect for participants to achieve economies of scale whilst remaining independent entities to avoid anti-competitive practices.
-* Giving regulated bodies bette oversight of the supply chain and to act quickly in the event of bad practice.
-* Enabling the supply chain to be efficient.
+* Facilitating peer-to-peer transactions among supply chain participants.
+* Creating a network effect to enable economies of scale for participants while maintaining their independence to prevent anti-competitive practices.
+* Providing regulatory bodies with enhanced oversight, enabling swift intervention in case of malpractices.
+* Enhancing overall supply chain efficiency.
 
-<u>The Implementations</u>
+### Implementation roadmap
 
-The implemention of our solution is dicussed [here](./docs/implementation.md)
+The implemention of our solution is discussed in our [roadmap](./docs/roadmap.md)
 
 ## Disclaimer
 
