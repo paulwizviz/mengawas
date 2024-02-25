@@ -4,7 +4,7 @@ This is a **educational** project that demonstrates the application of blockchai
 
 This project is presented from the perspective of a fictional company with a mission to help businesses form networks by leveraging on blockchain technologies. The narrative is presented from the viewpoint of a fictional company with the sole mission of assisting businesses in forming networks through the utilization of blockchain technologies. In instances where pronouns such as `we,` `our,` and `us` are used, they specifically refer to the fictional company. It is crucial to note that this fictional entity operates solely as a technology provider and is not a participant in the supply chain itself.
 
-For clarity and focus on problem-solving steps within the project, fictional entities, including countries (`Atlantis,` `Wakanda,` etc.), companies, and personas, have been introduced. This deliberate use of fictional elements aims to prevent distractions that might arise from the association with real-world entities, allowing a more concentrated exploration of the project's problem-solving methodologies.
+For clarity and focus on problem-solving steps within the project, fictional entities, including countries (`Atlantis,` `Wakanda,` etc.), companies, and personas, have been introduced. This deliberate use of fictional elements and simplification of case studies aims to prevent distractions that might arise from the association with real-world entities, allowing a more concentrated exploration of the project's problem-solving methodologies.
 
 ## Context
 
