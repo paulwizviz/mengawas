@@ -22,7 +22,7 @@ Simultaneously, a regulatory chain runs parallel to the physical supply chain. I
 
 ### What problems are we trying to solve?
 
-`Alantis` is a famous wine making country. However, the country's wine making supply chain is dominated by a single company, name `Acme`, which control the processing, bottling and distribution of wines. `Acme` also owns a vineyard and its chain of pubs. `Wakanda` a major importer of `Atlantis` wines is also dissatisfied with the dorminance of `Acme`. Together with the supply chain participants in `Atlantis`, `Wakanda` lodge a complain to the `World Trading Body`.
+`Alantis` is a famous wine making country. However, the country's wine making supply chain is dominated by a single company, name `Alpha`, which control the processing, bottling and distribution of wines. `Alpha` also owns a vineyard and its chain of pubs. `Wakanda` a major importer of `Atlantis` wines is also dissatisfied with the dorminance of `Alpha`. Together with the supply chain participants in `Atlantis`, `Wakanda` lodge a complain to the `World Trading Body`.
 
 The `World Trading Body` came to a judgement and ruled that `Alantis` must reform the wine supply chain make it more competitive. Allowing for more participants to participate in the supply chain.
 
