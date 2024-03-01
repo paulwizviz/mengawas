@@ -2,39 +2,40 @@
 
 In this section we discuss the current state of `Atlantis` wine supply chain.
 
-## Participants and roles
+## Participants
 
 `Atlantis` exports to more than 10 countries. One country `Wakanda` imports 45% of `Atlantis` wine. We have identified `Wakanda` for a case study involving a participants in a different legal jurisdiction. 
 
-There are also more than 3000 vineyards. Some of the vineyards that controls the all the stages of the supply chain. 
-
-The company named `Alpha` owns several vineyards, processing and bottling facilities, distribution warehouse and a chain of pubs. It also owns has a digitalized system to manage the supply chain of its fully own subsidaries and also to manage third party suppliers primarily vineyards. It also provide digital services to regulatory bodies based in `Atlantis` and to a lesser extend `Wakanda's`.
-
-There are also other vineyards that covers the entire supply chain but often in smaller scale that `Alpha`. They also often supply intermediate products to `Alpha` or have their final products sold via `Alpha` chain of pubs. These vineyards often relies on `Alpha` to provide supply chain information system to track their products. For the purpose of our analysis, we have identified the following vineyards as use cases:
+In `Alantis`, there is a dominant vineyard known as `Alpha`. There are also other vineyards. For our analysis we have identified the following vineyard:
 
 * `Victor one`.
 * `Victor two`.
 * `Victor three`.
 
-`Atlantis` is also a host to several independent distillers responsible for the processing stages of the supply chain. There are also distillers based in `Wakanda` importing grapes from `Atlantis` vineyard. For the purpose of our analysis, we have identified the following for case studies.
+`Atlantis` is also a host to several independent distillers responsible for the processing stages of the supply chain. There are also distillers based in `Wakanda` importing grapes from `Atlantis` vineyard. 
 
 * `Delta one`.
 * `Delta two`.
 * `Delta three`.
 
-There are also a number of independent distribution warehouses for final products in `Atlantis` and `Wakanda`. The following are our part of our case studies.
+`Atlantis` and `Wakanda` hosts a number of bottling facilities. We have identified the following distillers for analysis:
+
+* `Bravo one`.
+* `Bravo two`.
+
+There are also a number of independent distribution warehouses for final products in `Atlantis` and `Wakanda`. These warehouses have been identified for analysis.
 
 * `Wilco one`.
 * `Wilco two`.
 * `Wilco three.`
 
-The selling of final products are done by a number of wine merchants and a number of outlets in `Atlantis` and `Wakanda`. The following are our case studies.
+The selling of final products are done by a number of wine merchants and a number of outlets in `Atlantis` and `Wakanda`. We will be analysing the following.
 
 * `Mike one`.
 * `Mike two`.
 * `Mike three`.
 
-There are a number of regulatory participants responsible for overseeing the wine supply chain. The principal participants identified in this report but not exclusively are:
+There are a number of regulatory participants responsible for overseeing the wine supply chain. The principal participants identified in this report are:
 
 * `Atlantis Health Protection Agency (AHPA)`
 * `Atlantis Fine Wines Merchant Association (AFWMA)`
