@@ -1,24 +1,38 @@
 # Tides of Complexity: Examining the Supply Chain Challenges in Atlantis
 
-In this section we discuss `Atlantis` wine supply chain AS-IS.
+In this section we discuss the current state of `Atlantis` wine supply chain.
 
 ## Participants and roles
 
 `Atlantis` exports to more than 10 countries. One country `Wakanda` imports 45% of `Atlantis` wine. We have identified `Wakanda` for a case study involving a participants in a different legal jurisdiction. 
 
-There is a dominant participants in the supply chain: `Alpha`. The company owns vineyards, processing and bottling facilities, distribution warehouse and a chain of pubs. It also owns has a digitalized system that is closely integrated into the regulatory chain. It uses its own digitalized system to manage the supply chain of its fully own subsidaries and also to manage third parties suppliers primarily vineyards.
+There are also more than 3000 vineyards. Some of the vineyards that controls the all the stages of the supply chain. 
 
-There are 10 major vineyards and 500 minor vineyards. 
+The company named `Alpha` owns several vineyards, processing and bottling facilities, distribution warehouse and a chain of pubs. It also owns has a digitalized system to manage the supply chain of its fully own subsidaries and also to manage third party suppliers primarily vineyards. It also provide digital services to regulatory bodies based in `Atlantis` and to a lesser extend `Wakanda's`.
 
-The major vineyards have capacity to grow different types of grapes to produce different types of wines and they have the various capacities to process, bottle and distribute their own products. These vineyards have varying degrees of digitalizations. Some have the ability to integrate with a few regulatory bodies. Others rely on paper work to comply with regulation and track sales of their products. We have identified the following major vineyards as case study:
+There are also other vineyards that covers the entire supply chain but often in smaller scale that `Alpha`. They also often supply intermediate products to `Alpha` or have their final products sold via `Alpha` chain of pubs. These vineyards often relies on `Alpha` to provide supply chain information system to track their products. For the purpose of our analysis, we have identified the following vineyards as use cases:
 
-* `Victor One`.
-* `Victor Two`.
+* `Victor one`.
+* `Victor two`.
+* `Victor three`.
 
-The minor vineyards tends to grow one or two types of grapes, and have no capacity to produce wines, except in very small quantities. They tend to supply grapes to third party producers and distributors. The majority have only very limited digital systems, often in the form of a Personal Computer with Excel spreadsheet. They tend to rely on paper-based system to transact with regulatory bodies and record their deliveries to their buyers. We have identified the following as representative of the minor vineyards for case studies:
+`Atlantis` is also a host to several independent distillers responsible for the processing stages of the supply chain. There are also distillers based in `Wakanda` importing grapes from `Atlantis` vineyard. For the purpose of our analysis, we have identified the following for case studies.
 
-* `Bravo One`.
-* `Bravo Two`.
+* `Delta one`.
+* `Delta two`.
+* `Delta three`.
+
+There are also a number of independent distribution warehouses for final products in `Atlantis` and `Wakanda`. The following are our part of our case studies.
+
+* `Wilco one`.
+* `Wilco two`.
+* `Wilco three.`
+
+The selling of final products are done by a number of wine merchants and a number of outlets in `Atlantis` and `Wakanda`. The following are our case studies.
+
+* `Mike one`.
+* `Mike two`.
+* `Mike three`.
 
 There are a number of regulatory participants responsible for overseeing the wine supply chain. The principal participants identified in this report but not exclusively are:
 
@@ -26,6 +40,12 @@ There are a number of regulatory participants responsible for overseeing the win
 * `Atlantis Fine Wines Merchant Association (AFWMA)`
 * `Atlantis Alcholic Grading Institute (AAGI)`
 * `Wakanda Import Supervisory Agency (WISA)`
+
+Finally, we include in our studies, consumers of wines. In our case studies, we group these consumers by the types of wines they purchase and how they treat their wines. Our groups are:
+
+* `C1` - these are connoisseur of high end and expensive wines.
+* `C2` - these are consumers of expensive wines for their tastes and social status such wines confer.
+* `C3` - these are regular consumers.
 
 ## Analysis of Wine Export and Import
 
@@ -43,21 +63,21 @@ In addition to wine making operations, it also has a cloud based supply chain ma
 
 `Wakanda` and third parties users of `Alpha` supply chain management system has complained to the `World Trade Body` that the close integration between `Atlantis` regulators' system and `Alpha` constitute unfair competition.
 
-## Analysis of Major Vineyard Operations
+## Analysis of Vineyard Operations
 
-Major vineyards generally have the capcity to perform activities across the some or all of supply chain stages but many lack the scale of `Alpha`. We examine the operations of `Alpha One` and `Alpha Two`.
+**TO DO**
 
-`Alpha One` owns vineyards, process, bottle and distribute their own wine in `Atlantis` but rely on distributors in `Wakanda`. They do not sell wine to consumers only through to independent tavern in `Atlantis`. They also sell wines to `Alpha` who distribute and sell for them. They their own cloud base supply chain tracking system so they can track their wine up to their distribution system. Their system are also integrated with `Alpha's` system. 
+## Analysis of Distillers
 
-`Alpha Two` owns one vineyards. They produce but do not bottle nor distribute and sell their own wine. They expect their processed wine to `Wakanda` bottlers, distributors and sellers. They do not sell their wines directly in `Atlantis`. Their wines are imported from `Wakanda`. They would like to distribute and sell their wines directly in `Atlantis`. They use a mix of paper-based and PC base system to track their supply chain. 
+**TO DO**
 
-## Analysis of Minor Vineyard Operations
+## Analysis of Distributors
 
-Minor vineyard, only mostly grow grapes and they do not perform activities down the chain. They mainly sell their grapes to `Alpha` and/or sell their own wine in small quantities within their region. These vineyards are not digitalized and relies on paper-based system to track their products.
+**TO DO**
 
-`Bravo One` sells all their grapes to `Alpha` but they would like to sell it to other participants down the chain. As much of their supply chain tracking system is primarily paper-base system it is not economical for them to pivot from `Alpha`.
+## Analysis of Wine Merchants
 
-`Bravo Two` sells their grapes to `Alpha` but they also process, bottle, distribute and sell their own wine from their own vineyard. Their tracking system is also primarily paper-based system so they have difficult expanding their business to sell their wine directly. 
+**TO DO**
 
 ## Analysis of Regulators
 
@@ -68,3 +88,7 @@ The main regulator `AHPA` is currently mandated by `Atlantis` government to do s
 `AAGI` focus is on consumer grade wine. They do not require intrusive inspection as `AFWMA` but they are mandated by sellers to disambiguate wines from `Atlantis` and imported ones. They are also mandated to track sales volumes but track pricing to ensure fair competitive pricing. 
 
 `WISA` is a regulatory agency to ensure that wines imported to `Wakanda` meets trading standards so they can apply appropriate tariffs. They have and informal arrangement with `AFWA` and `AAGI` to recognise its certification to proof that the origin is from `Atlantis`. However, `Wakanda` is pressing for the provenance of imported wines to be traceable along all stages in the supply chain; all the way back to vineyard.
+
+## Analysis of Consumers
+
+**TO DO**
