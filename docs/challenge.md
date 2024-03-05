@@ -12,28 +12,20 @@ In `Alantis`, there is a dominant vineyard known as `Alpha`. There are also othe
 * `Victor two`.
 * `Victor three`.
 
-`Atlantis` is also a host to several independent distillers responsible for the processing stages of the supply chain. There are also distillers based in `Wakanda` importing grapes from `Atlantis` vineyard. 
+In addition to vineyards, `Atlantis` also hosts supply chain intermediaries responsible for the processing, bottling, distribution, and the selling stages. For the purpose of our analysis, we have identified the following as case studies.
 
-* `Delta one`.
-* `Delta two`.
-* `Delta three`.
-
-`Atlantis` and `Wakanda` hosts a number of bottling facilities. We have identified the following distillers for analysis:
-
-* `Bravo one`.
-* `Bravo two`.
-
-There are also a number of independent distribution warehouses for final products in `Atlantis` and `Wakanda`. These warehouses have been identified for analysis.
-
-* `Wilco one`.
-* `Wilco two`.
-* `Wilco three.`
-
-The selling of final products are done by a number of wine merchants and a number of outlets in `Atlantis` and `Wakanda`. We will be analysing the following.
-
-* `Mike one`.
-* `Mike two`.
-* `Mike three`.
+| Participants | Role |
+| --- | --- |
+| `Delta one` | Distiller (processing stage) |
+| `Delta two` | Distiller |
+| `Delta three` | Distiller |
+|  `Bravo one` | Bottler |
+| `Bravo two` | Bottler |
+| `Wilco one` | Warehousing (distribution stage) |
+| `Wilco two` | Warehousing (distribution stage) |
+| `Wilco three` | Warehousing (distribution stage) |
+| `Mike one` | Wine merchant (selling stage) |
+| `Mike two` | Wine merchant (selling stage) |
 
 There are a number of regulatory participants responsible for overseeing the wine supply chain. The principal participants identified in this report are:
 
