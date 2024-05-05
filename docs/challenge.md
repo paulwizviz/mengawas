@@ -1,87 +1,80 @@
 # Tides of Complexity: Examining the Supply Chain Challenges in Atlantis
 
-In this section we discuss the current state of `Atlantis` wine supply chain.
+This report examines the current state of `Atlantis` wine-making supply chain.
 
-## Participants
+## Participants in the Supply Chain
 
-`Atlantis` exports to more than 10 countries. One country `Wakanda` imports 45% of `Atlantis` wine. We have identified `Wakanda` for a case study involving a participants in a different legal jurisdiction. 
+`Atlantis` exports to more than 10 countries. However, for our analysis, we'll focus on `Wakanda`, which imports 45% of `Atlantis'` wine.
 
-In `Alantis`, there is a dominant vineyard known as `Alpha`. There are also other vineyards. For our analysis we have identified the following vineyard:
+There are many participants in the supply chain spread across the two countries. One participant, `Alpha`, controls entities across the entire supply chain and is the dominant player in the chain. Its closest peer is `Bravo`. The other participants are primarily vineyards, serving as the main sources of ingredients for other intermediaries in the supply chain. Finally, we have consumers of the wines.
 
-* `Victor one`.
-* `Victor two`.
-* `Victor three`.
-
-In addition to vineyards, `Atlantis` also hosts supply chain intermediaries responsible for the processing, bottling, distribution, and the selling stages. For the purpose of our analysis, we have identified the following as case studies.
+A snapshot of the participants that we have identified for our analysis is presented in Table 1.
 
 | Participants | Role |
 | --- | --- |
-| `Delta one` | Distiller (processing stage) |
-| `Delta two` | Distiller |
-| `Delta three` | Distiller |
-|  `Bravo one` | Bottler |
-| `Bravo two` | Bottler |
-| `Wilco one` | Warehousing (distribution stage) |
-| `Wilco two` | Warehousing (distribution stage) |
-| `Wilco three` | Warehousing (distribution stage) |
-| `Mike one` | Wine merchant (selling stage) |
-| `Mike two` | Wine merchant (selling stage) |
+| `Alpha` | Vineyard, distiller, bottler, warehousing, and wine merchant |
+| `Bravo` | Distiller, bottler, warehousing, and wine marchant |
+| `Delta` | Distiller and bottler |
+| `Foxtrot` | Bottler|
+| `Mike` | Wine merchants |
+| `Whisky one` | Warehousing |
+| `Whiskey two` | Warehousing and wine merchant |
+| `Victor one` | Vineyard, distiller, and bottler |
+| `Victor two` | Vineyard |
+| `C1` | Connoisseur of high end and expensive wines |
+| `C2` | Consumers of expensive wines for their tastes and social status such wines confer |
+| `C3` | Regular consumers |
+**Table 1:** Participants in the supply chain
 
-There are a number of regulatory participants responsible for overseeing the wine supply chain. The principal participants identified in this report are:
+In parallel to the supply chain are regulators, with the principal ones listed in Table 2.
 
-* `Atlantis Health Protection Agency (AHPA)`
-* `Atlantis Fine Wines Merchant Association (AFWMA)`
-* `Atlantis Alcholic Grading Institute (AAGI)`
-* `Wakanda Import Supervisory Agency (WISA)`
+| Participants | Role |
+| --- | --- |
+| `Atlantis Health Protection Agency (AHPA)` | Ensure that products sold meet health standard, wine is only one aspect |
+| `Atlantis Fine Wines Merchant Association (AFWMA)` | Grades wines for C1 consumers |
+| `Atlantis Alcholic Grading Institute (AAGI)` | Grades wines for C2 and C3 consumers and price control |
+| `Wakanda Import Supervisory Agency (WISA)` | Ensure compliance to international trading rules |
+| `Wakanda Health Agency (WHA)` | Similar role as AHPA |
+**Table 2:** Participants in the regulatory chain
 
-Finally, we include in our studies, consumers of wines. In our case studies, we group these consumers by the types of wines they purchase and how they treat their wines. Our groups are:
+## Analysis of Wine Export and Import Challenges
 
-* `C1` - these are connoisseur of high end and expensive wines.
-* `C2` - these are consumers of expensive wines for their tastes and social status such wines confer.
-* `C3` - these are regular consumers.
+`Atlantis`, as a member of the `World Trade Body`, has a baseline preferential treatment when exporting all goods to all member states. In the case of wine, `Atlantis'` wine producers need to demonstrate that their wine has met minimal standards to qualify for import to member countries without tariffs. However, member countries may impose additional conditions, such as health-related ones, for imports to be approved.
 
-## Analysis of Wine Export and Import
+In the specific case of `Atlantis` and `Wakanda`, these two countries do not operate as a common market, so each country maintains separate health regulations. There is no immediate prospect of the two countries forming a common market.
 
-`Atlantis` as a member of the `World Trade Body` have a basine line preferrential treatmnent when exporting all goods to all member states. In the case of wine, `Atlantis` wine producers needs to demonstrate their wine has met minimial standards to qualify for import to member countries without tariff. However, member countries may impose additional condition, such as health related ones, for imports to be approved.
-
-In the specific case of `Atlantis` and `Wakanda`, there two countries do not operate as a common market so each country maintain separate health regulations. There is no immediate prospect of the two countries forming a common market. 
-
-In addition to trade regulations, wines are graded differently between `Atlantis` and `Wakanda` differently, and grading is done by their respective wine merchants. When `Atlantis` exports wine to `Wakanda`, its wine merchant must met the regulation of `Wakanda` for sale there and/or `Atlantis` regulation if the wine is also sold in country.
+In addition to trade regulations, wines are graded differently between `Atlantis` and `Wakanda`, and grading is done by their respective wine merchants. When `Atlantis` exports wine to `Wakanda`, its wine merchants must meet the `Wakanda's` regulation for sale there and/or Atlantis' regulations if the wine is also sold in the country.
 
 ## Analysis of Alpha Operations
 
-`Alpha` is a dominant wine maker. It's operations covers all stages of the supply chain. It also buys grapes from third parties vineyard. However, it only exclusively distribute and sell wines through its own distribution channel, including exports to `Wakanda`. Through this dominance, `Alpha` is able to dictate the pricing of grapes and the kind of wines it can sell. 
+`Alpha` dominates the wine industry, controlling all supply chain stages. It produces and exclusively distributes wines made from grapes sourced from its own vineyard and third-party vineyards. It also sells end products produced by third-parties through its distribution channels such as its supermarket and wine merchant. This dominance enables Alpha to control grape pricing, wine variety, and distribution costs.
 
-In addition to wine making operations, it also has a cloud based supply chain management system that it uses to manage its own supply chain but it also rent out the system, in the form of Software as a Service (SaaS) to third parties. Its supply chain management system is also closely integrated with the regulatory bodies mentioned in this report. The principal complain about the supply chain system is the features of the system tends to favour `Alpha` own operations and is slow to roll out features that favour third parties. The pricing of `Alpha's` system is also not transparent.
+Besides wine production, `Alpha` offers a cloud-based supply chain management system, provided as Software as a Service (SaaS) to third parties. Integrated with regulatory bodies, other participants in the supply chain utilize the system, even if they don't transact with Alpha. However, concerns have been raised about favoritism in feature rollout and lack of pricing transparency. 
 
-`Wakanda` and third parties users of `Alpha` supply chain management system has complained to the `World Trade Body` that the close integration between `Atlantis` regulators' system and `Alpha` constitute unfair competition.
+`Alpha` sells wines to be consumed by `C2` and `C3`. The SaaS offering have tended to favour features that meet deliveries to these consumers, often neglacting features to manage high-end wines for `C1`.
 
-## Analysis of Vineyard Operations
+`Wakanda` and third-party users have lodged complaints with the `World Trade Body`, alleging unfair competition due to close integration between Atlantis regulators' system and Alpha. The allegation is that `Alpha` influences regulators' choice of system, making it harder for new entrants to provide a supply chain management system, especially from `Wakanda`.
 
-**TO DO**
+## Analysis of Non-Alpha Participants
 
-## Analysis of Distillers
+`Bravo` is `Alpha's` closest competitor. It sources grapes from third-party vineyards, produces, and distributes wines under its own label. While it also produces wines for third parties like `Victor two`, it lacks the capacity to distribute these wines through its own channels. Instead, third-party wines are distributed by non-`Bravo` owned wine merchants such as `Mike`.
 
-**TO DO**
+`Bravo` has its own supply chain management system, exclusively for in-house products, not available to third parties. Information for third-party products produced by `Bravo` is available at the point of source (i.e., the grape's provenance) and at the point of delivery.
 
-## Analysis of Distributors
+Wines produced for high-end consumers, like those from `Victor one`, are made in limited quantities. Investment wines are stored in casks and sold directly to `C1` investors. These casks are securely held by Whiskey one, a specialist in such products. Some wines may be sold through wine merchants, distributed by specialized sellers like `Whiskey two`, who also warehouse casks for investment. The provenance of these wines is crucial to C1 consumers.
 
-**TO DO**
+`Victor one` supplies grapes to `Alpha`, `Bravo`, and independent producers like `Delta`. Their challenge lies in integrating their supply chain management system with partners, which has not yet occurred. Product information, including high-value items, is mainly managed through paper-based systems and relies heavily on trust among partners.
 
-## Analysis of Wine Merchants
+`Victor two` represents the majority of independent vineyards supplying wines to other producers. They rely on `Alpha` and `Bravo` for income and produce their own labeled wines through third parties like `Bravo`, `Delta`, and `Foxtrot`, selling through independent merchants like `Mike`. Sales volumes are typically small, and regulatory approval costs, even for basic standards like those from AHPA, can be high. Diversification is costly with uncertain economic returns, and limited resources prevent significant investment in IT systems for self-sufficiency.
 
-**TO DO**
+Without a low-cost integration system for vineyards like `Victor two` in `Atlantis` to connect with regulatory bodies, it's challenging for them to access markets in parts of `Atlantis` that it has to cater to, or exports to `Wakanda`.
 
-## Analysis of Regulators
+## Conclusion
 
-The main regulator `AHPA` is currently mandated by `Atlantis` government to do spot checks on the entire supply chain a quarterly basis. However, due to incidents of wine poisoning, `Atlantis` has mandated more frequent checks, potentially on a monthly if not weekly basis.
+The principal conclusions from the analysis of the challenges are:
 
-`AFWMA` is focus on grading fine and expensive wines. They require processors to provide in person inspection every quarter but would like it to do more. They also perform inspections one the wines are bottled but the process is expensive. However, the customers of these high grade wines would like more real time inspection.
-
-`AAGI` focus is on consumer grade wine. They do not require intrusive inspection as `AFWMA` but they are mandated by sellers to disambiguate wines from `Atlantis` and imported ones. They are also mandated to track sales volumes but track pricing to ensure fair competitive pricing. 
-
-`WISA` is a regulatory agency to ensure that wines imported to `Wakanda` meets trading standards so they can apply appropriate tariffs. They have and informal arrangement with `AFWA` and `AAGI` to recognise its certification to proof that the origin is from `Atlantis`. However, `Wakanda` is pressing for the provenance of imported wines to be traceable along all stages in the supply chain; all the way back to vineyard.
-
-## Analysis of Consumers
-
-**TO DO**
+* `Alpha's` dominance hinders third-party wine producers from selling competitive products.
+* `Alpha's` domainance in supply chain management system is a hinerence to others IT suppliers.
+* Concerns arise over favoritism due to `Alpha's` close relationship and highly integrated supply chain management with regulators.
+* Some segments of the wine sector, such as high-value ones, lack IT support, despite consumer demand for product provenance.
+* Small vineyards lack resources to invest in even basic IT systems to exploit the opportunities blocked by `Alpha`. 
