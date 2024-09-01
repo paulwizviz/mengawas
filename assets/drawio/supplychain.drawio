@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-02-24T07:51:12.901Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="_ovyfOB9tAonp3VZOcTs" version="23.1.5" type="device">
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
   <diagram name="Page-1" id="lS4-UMWoGOBkaAkWKf9Y">
-    <mxGraphModel dx="1114" dy="807" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="291" math="0" shadow="0">
+    <mxGraphModel dx="700" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="291" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -42,6 +42,15 @@
         </mxCell>
         <mxCell id="MoRw-1AikJUv3sV1erbA-2" value="Regulate" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="119" y="50" width="631" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMadKO98Gs5hhKycjw9-1" value="Tools &amp;amp;&lt;div&gt;Services&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="340.60999999999996" y="320" width="94.29" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMadKO98Gs5hhKycjw9-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.vecteezy.com/system/resources/thumbnails/004/581/260/small/truck-delivery-icon-transportation-automotive-shipping-moving-and-freight-illustration-design-free-vector.jpg;clipPath=inset(25% 11.5% 25% 13%);" vertex="1" parent="1">
+          <mxGeometry x="368" y="261" width="45.29" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YZMadKO98Gs5hhKycjw9-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="362.75" y="-118.75" width="50" height="687.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
