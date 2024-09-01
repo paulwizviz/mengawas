@@ -3,3 +3,9 @@
 
 # Temp files
 assets/drawio/.*.drawio.bkp
+
+# envrc
+.envrc
+
+# psql
+dbfiles/
