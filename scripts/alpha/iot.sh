@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ "$(basename $(realpath .))" != "mengawas" ]; then
+    echo "You are outside the scope of the project"
+    exit 0
+fi
+
 COMMAND="$1"
 
 export DEVICE_IMAGE_NAME=mengawas/devicemock:current
@@ -16,9 +21,9 @@ export CLIENT_APP_NAME="mqttclient"
 export NETWORK_NAME="mengawas_mqtt-network"
 
 function build(){
-    docker-compose -f ./build/ex1/builder.yaml build device
-    docker-compose -f ./build/ex1/builder.yaml build devproc
-    docker-compose -f ./build/ex1/builder.yaml build devop
+    docker-compose -f ./build/alpha/builder.yaml build device
+    docker-compose -f ./build/alpha/builder.yaml build devproc
+    docker-compose -f ./build/alpha/builder.yaml build devop
 }
 
 function clean(){
@@ -29,15 +34,15 @@ function clean(){
 }
 
 function run(){
-    docker-compose -f ./deployment/ex1/docker-compose.yml up
+    docker-compose -f ./deployment/alpha/docker-compose.yml up
 }
 
 function devop(){
-    docker-compose -f ./deployment/ex1/devop.yml up passwd
+    docker-compose -f ./deployment/alpha/devop.yml up passwd
 }
 
 function stop(){
-    docker-compose -f ./deployment/ex1/docker-compose.yml down
+    docker-compose -f ./deployment/alpha/docker-compose.yml down
 }
 
 message="$0 build | clean | devop | run  | stop"
