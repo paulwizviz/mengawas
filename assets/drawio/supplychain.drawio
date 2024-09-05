@@ -1,56 +1,56 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
   <diagram name="Page-1" id="lS4-UMWoGOBkaAkWKf9Y">
-    <mxGraphModel dx="700" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="291" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="413" pageHeight="291" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="MoRw-1AikJUv3sV1erbA-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeColor=none;" parent="1" vertex="1">
-          <mxGeometry x="30" y="40" width="770" height="150" as="geometry" />
-        </mxCell>
         <mxCell id="47rJ_QTVQbzoOPjdUdao-1" value="&amp;nbsp; &amp;nbsp; Harvesting" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="119" y="97.5" width="90" height="70" as="geometry" />
+          <mxGeometry x="217.62" y="97.5" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="47rJ_QTVQbzoOPjdUdao-5" value="&amp;nbsp; &amp;nbsp; Bottling" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="409" y="97.5" width="80" height="70" as="geometry" />
+          <mxGeometry x="507.62" y="97.5" width="80" height="70" as="geometry" />
         </mxCell>
         <mxCell id="47rJ_QTVQbzoOPjdUdao-14" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Distribution" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="539" y="97.5" width="94.71" height="70" as="geometry" />
+          <mxGeometry x="637.62" y="97.5" width="94.71" height="70" as="geometry" />
         </mxCell>
         <mxCell id="47rJ_QTVQbzoOPjdUdao-15" value="&amp;nbsp; &amp;nbsp;Selling" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="684.29" y="97.5" width="70" height="70" as="geometry" />
+          <mxGeometry x="782.91" y="97.5" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yK4A0Zebumvh4gKX7Or6-3" value="&amp;nbsp; &amp;nbsp; &amp;nbsp;Processing" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fontSize=12;" parent="1" vertex="1">
-          <mxGeometry x="264.28999999999996" y="97.5" width="90" height="70" as="geometry" />
+          <mxGeometry x="362.90999999999997" y="97.5" width="90" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yK4A0Zebumvh4gKX7Or6-13" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.vecteezy.com/system/resources/thumbnails/004/581/260/small/truck-delivery-icon-transportation-automotive-shipping-moving-and-freight-illustration-design-free-vector.jpg;clipPath=inset(25% 11.5% 25% 13%);" parent="1" vertex="1">
-          <mxGeometry x="218.99999999999997" y="117.5" width="45.29" height="30" as="geometry" />
+          <mxGeometry x="317.62" y="117.5" width="45.29" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yK4A0Zebumvh4gKX7Or6-14" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.vecteezy.com/system/resources/thumbnails/004/581/260/small/truck-delivery-icon-transportation-automotive-shipping-moving-and-freight-illustration-design-free-vector.jpg;clipPath=inset(25% 11.5% 25% 13%);" parent="1" vertex="1">
-          <mxGeometry x="363.71" y="117.5" width="45.29" height="30" as="geometry" />
+          <mxGeometry x="462.33" y="117.5" width="45.29" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yK4A0Zebumvh4gKX7Or6-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.vecteezy.com/system/resources/thumbnails/004/581/260/small/truck-delivery-icon-transportation-automotive-shipping-moving-and-freight-illustration-design-free-vector.jpg;clipPath=inset(25% 11.5% 25% 13%);" parent="1" vertex="1">
-          <mxGeometry x="499" y="117.5" width="45.29" height="30" as="geometry" />
+          <mxGeometry x="597.62" y="117.5" width="45.29" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yK4A0Zebumvh4gKX7Or6-16" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.vecteezy.com/system/resources/thumbnails/004/581/260/small/truck-delivery-icon-transportation-automotive-shipping-moving-and-freight-illustration-design-free-vector.jpg;clipPath=inset(25% 11.5% 25% 13%);" parent="1" vertex="1">
-          <mxGeometry x="639" y="117.5" width="45.29" height="30" as="geometry" />
+          <mxGeometry x="737.62" y="117.5" width="45.29" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="yK4A0Zebumvh4gKX7Or6-17" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="759" y="102.5" width="30" height="60" as="geometry" />
+        <mxCell id="yK4A0Zebumvh4gKX7Or6-17" value="Customers" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="870" y="102.5" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yK4A0Zebumvh4gKX7Or6-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://as2.ftcdn.net/v2/jpg/02/48/99/15/1000_F_248991536_kLNd3vJRMT4f2bS80byfqRe8FmfeKCIu.jpg;clipPath=inset(19.67% 23.67% 14% 23.33%);" parent="1" vertex="1">
-          <mxGeometry x="39" y="90" width="67.92" height="85" as="geometry" />
+          <mxGeometry x="148.62" y="90" width="67.92" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="MoRw-1AikJUv3sV1erbA-2" value="Regulate" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="119" y="50" width="631" height="30" as="geometry" />
+        <mxCell id="MoRw-1AikJUv3sV1erbA-2" value="Regulatory chain" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="158.62" y="50" width="690" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YZMadKO98Gs5hhKycjw9-1" value="Tools &amp;amp;&lt;div&gt;Services&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="340.60999999999996" y="320" width="94.29" height="60" as="geometry" />
+        <mxCell id="YZMadKO98Gs5hhKycjw9-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" parent="1" vertex="1">
+          <mxGeometry x="477.74" y="-130" width="37.25" height="667.5" as="geometry" />
         </mxCell>
-        <mxCell id="YZMadKO98Gs5hhKycjw9-2" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.vecteezy.com/system/resources/thumbnails/004/581/260/small/truck-delivery-icon-transportation-automotive-shipping-moving-and-freight-illustration-design-free-vector.jpg;clipPath=inset(25% 11.5% 25% 13%);" vertex="1" parent="1">
-          <mxGeometry x="368" y="261" width="45.29" height="30" as="geometry" />
+        <mxCell id="uChtT_8EnyfWQQGQ2vEa-1" value="Support&lt;div&gt;chain&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;align=center;fontSize=12;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="451.36" y="240" width="90" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="YZMadKO98Gs5hhKycjw9-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="362.75" y="-118.75" width="50" height="687.5" as="geometry" />
+        <mxCell id="uChtT_8EnyfWQQGQ2vEa-6" value="Production&lt;div&gt;chain&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="112.5" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="uChtT_8EnyfWQQGQ2vEa-7" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="78.75" width="37.25" height="107.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
