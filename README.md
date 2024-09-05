@@ -1,26 +1,22 @@
 # Overview
 
-While blockchain holds promise for industry transformation, it's vital to use it in ways that address, rather than worsen, industry challenges. In this project, we'll employ an illustrative approach to examine the challenges of a fictional wine-making supply chain and then systematically introduce blockchain to address those industry challenges.
+This is a project to demonstrate a wine making supply chain leveraging on peer-to-peer technologies, such as blockchain, to enable the chain to be efficient.
 
-## Project Context
+## Context
 
-The basic steps in the wine-making process are summarized in Figure 1.
+The basic steps in the wine-making process is illustrated in Figure 1.
 
 ![wine making](./assets/img/winemaking.webp)</br>
 **Figure 1: Basic Wine Making Steps (see [Image source.](https://finding.wine/blogs/blog-posts/basic-steps-of-the-winemaking-process))**
 
-When viewed from a supply chain perspective, the wine-making process is encapsulated in these key stages: harvesting, processing, bottling, distribution, and selling (see Figure 2). We have bundled juice extraction, fermentation, pressing, filtration, and aging into a single stage known collectively as `processing`. The steps in the processing stage are seldom independently executed. Between the supply chain stages are transportation segments that serve as bridges, facilitating the movement of intermediate and final products.
+From a supply chain perspective, the wine-making process consists of key stages: harvesting, processing, bottling, distribution, and selling (see Figure 2). We have grouped juice extraction, fermentation, pressing, filtration, and aging into a single stage called `processing`, as these steps are rarely performed independently. Transportation segments connect the supply chain stages, facilitating the movement of both intermediate and final products. We refer to this part of the supply chain as the production chain.
 
-Simultaneously, a regulatory chain runs parallel to the physical supply chain. Its primary role is to ensure compliance with regulations, particularly in areas such as health and safety, and product grading, at every stage of the physical chain.
+Running parallel to the production chain is the regulatory chain, which consists of participants responsible for ensuring that the production chain complies with regulations and quality standards.
 
-![Supply chain](./assets/img/supplychain.jpg)</br>
+The third component of the supply chain is the support chain, responsible for supplying equipment, such as casks and bottles, or services that enable the production chain to produce wine.
+
+![Supply chain](./assets/img/supplychain.png)</br>
 **Figure 2: The supply chain**
-
-### What problems are we trying to solve?
-
-
-### A proposed solution
-
 
 ## Disclaimer
 
