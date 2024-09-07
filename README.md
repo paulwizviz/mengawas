@@ -20,15 +20,23 @@ The third component is the support chain, responsible for providing equipment (e
 
 ## Project Scenario
 
-For this project, we have identified the following participants and their respective platform requirements (click on the links):
+In this project, we begin with a supply chain that lacks peer-to-peer infrastructure. The following participants are identified as the "genesis" entities within the supply chain:
 
 - [Delta Distiller](./docs/delta.md): Handles juice extraction, fermentation, pressing, filtration, aging, and bottling.  
 - [Gerrard Grader](./docs/gerrard.md): Independent organization responsible for wine grading.  
 - [Mike Merchant](./docs/mike.md): Retailer of the final product.  
 - [Sierra Sensors](./docs/sierra.md): Provides sensor and satellite imagery services.  
-- [Victor Vineyard](./docs/victor.md): Grape supplier.  
+- [Victor Vineyard](./docs/victor.md): Grape supplier.
 
-Each of these participants operates as an independent node within the supply chain, with its own platform. They must share information without relying on intermediaries to coordinate actions. The network is designed to be extensible, allowing new participants to join with minimal configuration.
+Each of these participants operates as an independent node within the supply chain, with its own platform. For more details on their respective platform requirements, please click on the links above.
+
+The genesis participants must share information without relying on intermediaries to coordinate their actions. The network is designed to be extensible, allowing new participants (non-genesis entities) to join with minimal barriers or complex configurations.
+
+Additionally, there is a non-participant in the supply chain, referred to as "we" or "Mengawas." Mengawas are the contributors responsible for building the platform that enables supply chain participants to interact with each other. The role of Mengawas and the supply chain network architecture is detailed [here](./docs/mengawas.md).
+
+## What does this project aim to demonstrate?
+
+This project aims to demonstrate an alternative approach to centralized systems commonly found in industries such as ride-hailing services, where a central entity mediates interactions between participants. Instead, this project will show that supply chain participants can operate more efficiently through a peer-to-peer network, eliminating the need for intermediaries.
 
 ## Disclaimer
 
