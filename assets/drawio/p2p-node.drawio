@@ -1,0 +1,77 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.8 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.8">
+  <diagram name="Page-1" id="5cryVJWyZFqFg1ohZWaB">
+    <mxGraphModel dx="763" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-1" value="API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="290" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-2" value="Logic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="320" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-3" value="Ledger" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="480" y="320" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-4" value="P2P networking&lt;div&gt;protocol&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="410" y="350" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-5" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="400" y="280" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-6" value="P2P Node" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="450" y="410" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="yCqJ6yv5bbTL29WE98PO-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-7" value="&lt;div&gt;Participant&#39;s&lt;/div&gt;&lt;div&gt;IT&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-9" value="API" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="90" y="290" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-10" value="Logic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="90" y="320" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-11" value="Ledger" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-12" value="P2P networking&lt;div&gt;protocol&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="90" y="350" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-13" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-14" value="P2P Node" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="130" y="410" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="yCqJ6yv5bbTL29WE98PO-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-16" value="&lt;div&gt;Participant&#39;s&lt;/div&gt;&lt;div&gt;IT&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="yCqJ6yv5bbTL29WE98PO-13" target="yCqJ6yv5bbTL29WE98PO-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="350" as="sourcePoint" />
+            <mxPoint x="380" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=30;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="yCqJ6yv5bbTL29WE98PO-19" target="yCqJ6yv5bbTL29WE98PO-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="yCqJ6yv5bbTL29WE98PO-19" target="yCqJ6yv5bbTL29WE98PO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yCqJ6yv5bbTL29WE98PO-19" value="Mengawas&lt;div&gt;builds&lt;/div&gt;&lt;div&gt;this&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=20;" vertex="1" parent="1">
+          <mxGeometry x="650" y="440" width="80" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

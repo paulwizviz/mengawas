@@ -45,3 +45,6 @@ An overview of the Mengawas network is summarised in Figure 3.
 **Figure 3: The Mengawas network**
 
 Mengawas role is to provide the node where each participant will integrate with their respective IT solutions. 
+
+![Mengawas p2p node](../assets/img/p2p-node.png)
+**Figure 4: The Mengawas network**
