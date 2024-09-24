@@ -34,7 +34,7 @@ As shown in Figure 2, the Vineyard communicate with the node its own, which in t
 
 A key element of having an integrated supply chain is to enable participants have a view of the provenance of wine. With a peer-to-peer setup, all participants including buyers of wine can access information about the product from any nodes in the network and not reliant on one source.
 
-![Peer to peer](../assets/img/p2p-network.drawio.png)  
+![Peer to peer](../assets/img/p2p-network.png)  
 **Figure 2: A peer-to-peer supply chain solution**
 
 ## What does Mengawas solution look like?
