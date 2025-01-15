@@ -1,6 +1,6 @@
 # Overview
 
-This project showcases the process of developing solutions to support and optimise the wine-making supply chain. A supply chain is a network of participants involved in the production, processing, and delivery of a product.
+`Mengawas` showcases the process of developing solutions to support and optimise the wine-making supply chain. A supply chain is a network of participants involved in the production, processing, and delivery of a product.
 
 ## Project Background
 
@@ -36,18 +36,22 @@ For detailed description of the solution architecture please refer to [detailed 
 
 ## Disclaimer
 
-- This project is for demonstration purposes only.  
-- The entities mentioned are fictional, and any resemblance to real entities is purely coincidental.  
-- The project scope is subject to updates, and items may be removed or modified without prior notice.
+`Mengawas` is provided as-is, without any guarantees or support. This project is for demonstration purposes only not intended for production or mission-critical systems. Users of the project shall assume all risks associated with its use.
+
+The project is subject to change without notice, with modifications initiated and implemented at the sole discretion of its contributors.
+
+The contributors to this project shall not be held liable for any damages, losses, or issues arising from its use. Developers are encouraged to thoroughly test and evaluate the library in their own environments before incorporating it into their applications. Where necessary, developers are advised to fork or clone the project and modify it to meet their specific needs.
 
 ## Copyright
 
-Unless otherwise specified, the copyright for this project is assigned as follows:
+Unless otherwise specified, this project is copyrighted as follows:
 
-Copyright 2023 Paul Sitoh
+Copyright 2024 The Contributors to `Mengawas`
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at:
 
-<http://www.apache.org/licenses/LICENSE-2.0>
+    http://www.apache.org/licenses/LICENSE-2.0
 
-Unless required by applicable law or agreed to in writing, software distributed under the License is provided "AS IS", without warranties or conditions of any kind. See the License for specific language governing permissions and limitations under the License.
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+Please refer to the CONTRIBUTORS file for a list of contributors or the repository's commit history.
