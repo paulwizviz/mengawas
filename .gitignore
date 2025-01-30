@@ -2,8 +2,8 @@
 .DS_Store
 
 # Temp files
-assets/drawio/.*.drawio.bkp
-assets/drawio/.*.drawio.dtmp
+.*.drawio.bkp
+.*.drawio.dtmp
 
 # envrc
 .envrc
