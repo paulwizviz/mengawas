@@ -13,7 +13,7 @@ The wine production process, as summarized in Figure 1, highlights the critical 
 
 Key data points for ensuring product quality are detailed [here](./docs/product_life.md).
 
-While some wineries manage the entire process from harvest to direct sales (as seen in Figure 1), the wine industry often involves a complex supply chain with multiple entities. A detailed analysis of the supply chain is [here](./docs/supply_chain.md).
+While some wineries manage the entire process from harvest to direct sales (as seen in Figure 1), the wine industry often involves a complex supply chain with multiple participants. A detailed analysis of the supply chain is [here](./docs/supply_chain.md).
 
 ## Project Goals and Challenges
 

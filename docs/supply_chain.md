@@ -1,10 +1,10 @@
 # Supply Chain
 
-`Mengawas` models the wine making supply chain, as illustrated in Figure 2.
+`Mengawas` models the wine making supply chain, as illustrated in Figure 1.
 
 <figure>
   <img src="./assets/img/supplychain.png" alt="Wine making supply chain" />
-  <figcaption>Figure 2: The Wine-Making Supply Chain, illustrating the interconnectedness of the product, support, and regulatory chains.</figcaption>
+  <figcaption>Figure 1: The Wine-Making Supply Chain, illustrating the interconnectedness of the product, support, and regulatory chains.</figcaption>
 </figure>
 
 In the figure, `mengawas` has identified three sub-chains:
