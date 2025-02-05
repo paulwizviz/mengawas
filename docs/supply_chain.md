@@ -15,7 +15,7 @@ In the figure, `mengawas` has identified three sub-chains:
 
 ## Product Chain 
 
-The product chain consists of entities directly responsible for the production of wine - i.e. `harvesting`, `processing`, `warehousing`, and `selling`. Note, for this project, `processing` includes the following activities:
+The product chain consists of participants directly responsible for the production of wine - i.e. `harvesting`, `processing`, `warehousing`, and `selling`. In the context of `mengawas`, `processing` includes the following activities:
 
 * Extract Juice
 * Fermentation
