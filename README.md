@@ -13,18 +13,7 @@ The wine production process, as summarized in Figure 1, highlights the critical 
 
 Key data points for ensuring product quality are detailed [here](./docs/product_life.md).
 
-While some wineries manage the entire process from harvest to direct sales (as seen in Figure 1), the wine industry often involves a complex supply chain with multiple entities.  Mengawas models this supply chain, as illustrated in Figure 2, focusing on the interconnectedness of the product, support, and regulatory chains.
-
-<figure>
-  <img src="./assets/img/supplychain.png" alt="Wine making supply chain" />
-  <figcaption>Figure 2: The Wine-Making Supply Chain, illustrating the interconnectedness of the product, support, and regulatory chains.</figcaption>
-</figure>
-
-The supply chain comprises three key sub-chains: the product chain, the regulatory chain, and the support chain.  Further details on each chain can be found in the following documents:
-
-* [Product Chain](./docs/product_life.md)
-* [Support Chain](./docs/support_chain.md)
-* [Regulation Chain](./docs/regulation_chain.md)
+While some wineries manage the entire process from harvest to direct sales (as seen in Figure 1), the wine industry often involves a complex supply chain with multiple entities. A detailed analysis of the supply chain is [here](./docs/supply_chain.md).
 
 ## Project Goals and Challenges
 
