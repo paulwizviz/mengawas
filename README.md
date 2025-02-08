@@ -2,16 +2,6 @@
 
 `Mengawas` is an educational project demonstrating the process of developing solutions for supply chain challenges. It uses a simulated wine-making process as a case study to illustrate key concepts and development stages.
 
-## Wine-Making Supply Chain Challenges
-
-Real-world wine supply chain participants face several significant challenges, including:
-
-* **Climate Change:** Increasingly unpredictable weather patterns lead to fluctuating yields and impact grape quality.
-* **Regulatory Compliance:** Meeting evolving regulatory demands adds complexity and cost.
-* **Information Silos:** The decentralized nature of the industry often results in fragmented information sharing, hindering collaboration and traceability.
-
-`Mengawas` explores how a simulated solution can be developed to address these challenges, focusing on improving efficiency and transparency within the wine-making supply chain.
-
 ## Development Lifecycle
 
 `Mengawas` follows a simplified development lifecycle, as summarized in Figure 1, to demonstrate the process of moving from problem definition to a potential solution.
@@ -23,9 +13,11 @@ Real-world wine supply chain participants face several significant challenges, i
 
 The results of each stage in the `mengawas` development lifecycle are presented in the following documents:
 
-* [Product Lifecycle Analysis](./docs/product_life.md) (Wine-making focus)
-* [Supply Chain Analysis](./docs/supply_chain.md)
-* [Solution Architecture](./docs/solution.md)
+* [What problems are we solving?](./docs/solution.md#what-problem-are-we-solving)
+* [Product lifecycle analysis](./docs/product_life.md) (Wine-making focus)
+* [Supply chain analysis](./docs/supply_chain.md)
+* [Whiteboard Architecture - Options](./docs/solution.md#whiteboard-architecture---options)
+* [Product Backlogs](./docs/solution.md#product-backlogs)
 
 > **NOTE:**
 > 1.  This project uses a simplified development lifecycle and wine-making case study for educational purposes.  While the core steps are applicable to other supply chain scenarios, the level of detail is reduced for clarity.
