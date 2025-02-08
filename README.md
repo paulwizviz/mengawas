@@ -1,53 +1,45 @@
-# Overview
+# Mengawas: Optimizing the Wine-Making Supply Chain (Educational Project)
 
-This project showcases the process of developing solutions to support and optimise the wine-making supply chain. A supply chain is a network of participants involved in the production, processing, and delivery of a product.
+`Mengawas` is an educational project demonstrating the process of developing solutions for supply chain challenges. It uses a simulated wine-making process as a case study to illustrate key concepts and development stages.
 
-## Project Background
+## Development Lifecycle
 
-The wine-making process consists of several essential stages (see Figure 1).
+`Mengawas` follows a simplified development lifecycle, as summarized in Figure 1, to demonstrate the process of moving from problem definition to a potential solution.
 
-![wine making](./assets/img/winemaking.webp)  
-**Figure 1: Basic Wine-Making Steps ([Image source](https://finding.wine/blogs/blog-posts/basic-steps-of-the-winemaking-process))**
+<figure>
+  <img src="./assets/img/dev-lifecycle.png" alt="Mengawas development lifecycle" />
+  <figcaption>Figure 1: Mengawas Development Lifecycle.</figcaption>
+</figure>
 
-From a supply chain perspective, the process consists of these stages: harvesting, processing, bottling, distribution, and selling (see Figure 2). For simplicity, juice extraction, fermentation, pressing, filtration, and aging are grouped into a single stage called `processing`, as these steps are typically interrelated. Transportation connects these stages, moving both intermediate and final products, forming the production chain.
+The results of each stage in the `mengawas` development lifecycle are presented in the following documents:
 
-Alongside the production chain is the regulatory chain, which ensures compliance with regulations and quality standards.
+* [What problems are we solving?](./docs/solution.md#what-problem-are-we-solving)
+* [Product lifecycle analysis](./docs/product_life.md) (Wine-making focus)
+* [Supply chain analysis](./docs/supply_chain.md)
+* [Whiteboard Architecture - Options](./docs/solution.md#whiteboard-architecture---options)
+* [Product Backlogs](./docs/solution.md#product-backlogs)
 
-The third component is the support chain, responsible for providing equipment (e.g., barrels, bottles) and services that enable the production chain to operate smoothly.
-
-![Supply chain](./assets/img/supplychain.png)  
-**Figure 2: The Wine-Making Supply Chain**
-
-## Project Scope and Deliverables
-
-The current project scope includes the following participants in the supply chain:
-
-- [Dale Distiller](./docs/delta.md): Juice extraction, fermentation, pressing, filtration, aging, and bottling.  
-- [Mike Merchant](./docs/mike.md):  Final product seller.  
-- [Victor Vineyard](./docs/victor.md): Grape supplier.
-- [William Warehouse](./docs/william.md): Warehouse.
-
-The objective is to deliver a track and trace solution using Internet of Thing (IoT) over the supply chain based on an architecture shown in Figure 3.
-
-![Architecture](./assets/img/centralised-chain.png)  
-**Figure 3: Track and Trace**
-
-For detailed description of the solution architecture please refer to [detailed design](./docs/solution.md).
+> **NOTE:**
+> 1.  This project uses a simplified development lifecycle and wine-making case study for educational purposes.  While the core steps are applicable to other supply chain scenarios, the level of detail is reduced for clarity.
+> 2.  The intermediate steps, such as translating a high-level architecture to a detailed product backlog, are not explicitly shown in this project.
+> 3.  The findings presented in product lifecycle analysis, supply chain analysis and solution architect are simplified but in real work project these documente would be constantly evolving and synchronised to user stories.
 
 ## Disclaimer
 
-- This project is for demonstration purposes only.  
-- The entities mentioned are fictional, and any resemblance to real entities is purely coincidental.  
-- The project scope is subject to updates, and items may be removed or modified without prior notice.
+`Mengawas` is provided "as-is," without any warranties or support. This project is for demonstration purposes only and is not intended for production or mission-critical systems. Users assume all risks associated with its use.
+
+The project is subject to change without notice, at the sole discretion of the contributors.
+
+The contributors shall not be liable for any damages, losses, or other issues arising from the use of this project. Users are encouraged to thoroughly test and evaluate `Mengawas` in their own environments before incorporating it into any applications. Forking or cloning the repository and adapting it to specific needs is also recommended.
 
 ## Copyright
 
-Unless otherwise specified, the copyright for this project is assigned as follows:
+Copyright 2025 The Mengawas Contributors
 
-Copyright 2023 Paul Sitoh
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at:
+    http://www.apache.org/licenses/LICENSE-2.0
 
-<http://www.apache.org/licenses/LICENSE-2.0>
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
-Unless required by applicable law or agreed to in writing, software distributed under the License is provided "AS IS", without warranties or conditions of any kind. See the License for specific language governing permissions and limitations under the License.
+A list of contributors can be found in the CONTRIBUTORS file or by reviewing the repository's commit history.
