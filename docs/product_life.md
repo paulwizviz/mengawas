@@ -1,4 +1,8 @@
-# Product Lifecycle and Consumer Confidence
+# Product Lifecycle Analysis
+
+A product lifecycle analysis helps supply chain stakeholders understand the key data points needed to ensure product integrity and build consumer confidence. By examining each stage of a product's creation and distribution, we can identify crucial information that demonstrates quality and authenticity to the consumer. This focused approach ensures we collect and present the most relevant data.
+
+## The `mengawas` Wine Making Process
 
 The wine production process, as summarized in Figure 1, highlights the critical importance of lifecycle integrity for final product quality.
 
@@ -18,16 +22,13 @@ The roles of each step are:
 7. **Bottling:** The wine is bottled and sealed.
 8. **Consumption:** The wine is ready to be enjoyed.
 
-This section analyzes the critical data points in the wine-making lifecycle, from grape harvesting to consumption, that should be collected to ensure quality standards are maintained during production and presented to consumers to build confidence in the final product's quality and authenticity.
-
 > **NOTE:**
-> 1. The data points presented here are based on a simulated interview, as `mengawas` is an educational project.
+> 1. The wine making process is a simplified as `mengawas` is an educational project.
 > 2. A comprehensive analysis for a real-world production scenario would require thorough interviews with multiple sources and consideration of different wine types.
-
 
 ## Data Points for Quality Assurance and Consumer Confidence
 
-The following data points are crucial for both quality control during production and providing consumers with the information they need to make informed choices:
+The following data points, in the context of `mengawas`, are crucial for both quality control during production and providing consumers with the information they need to make informed choices:
 
 ### 1. Harvest & Grape Quality
 
