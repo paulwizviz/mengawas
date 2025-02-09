@@ -1,27 +1,6 @@
-# Problem Definition, Whiteboard Architecture and Product Backlogs
+# Whiteboard Architecture and Product Backlogs
 
 This section describes the process `mengawas` followed to define the problem, explore potential solutions, and translate the chosen architecture into actionable product backlogs using a simulated wine making process to illustrate.
-
-## Problem Definition
-
-The first step in finding a solution to solve supply chain challenges is no different from any other software project, which is to appreciate the nature of the problem one is trying to solve. In the stage of the development lifecycle, the emphasis is to get a big picture of the challenges not to go into details.
-
-For `mengawas`, the following challenges have been identified for the simulated wine making supply chain:
-
-* **Climate Change:** Increasingly unpredictable weather patterns lead to fluctuating yields and impact grape quality.
-* **Information Silos:** The decentralized nature of the supply chain results in fragmented information sharing, hindering collaboration and traceability.
-* **Varying Levels of Digitalization:** Participants have different levels of competence and investment in digital technologies, making a one-size-fits-all solution inappropriate.
-
-> **NOTE:**
-> 1. For a real world supply chain scenarios, the recommended approach is to work with all stake holders in the supply chain to identify challenges.
-> 2. Record the challenges in bulletpoints and make it accessible to all stakeholders.
-
-Having identified the nature of challenges, perform the following steps:
-
-* [Product lifecycle analysis](product_life.md).
-* [Supply chain analysis](./supply_chain.md).
-
-These steps provides details of the nature of the challenges.
 
 ## Solution Architecture Options
 

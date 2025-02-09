@@ -4,25 +4,20 @@
 
 ## Development Lifecycle
 
-`Mengawas` follows a simplified development lifecycle summarized in Figure 1 as the process of discovering, planning, and managing the implementation of solutions for supply chain challenges.
+`Mengawas` follows a development lifecycle summarized in Figure 1 intended to discover, plan, and manage the implementation of solutions for supply chain challenges. Whilst `mengawas` uses a simulated wine making process to illustrate the process, the development lifecycle is applicable to other supply chain scenarios.
 
 <figure>
   <img src="./assets/img/dev-lifecycle.png" alt="Mengawas development lifecycle" />
   <figcaption>Figure 1: `Mengawas` Development Lifecycle.</figcaption>
 </figure>
 
-Detailed discussions and illustrations of the `mengawas` development lifecycle, using a simulated wine-making process, are covered in these documents:
+Detailed discussions and illustrations of the `mengawas` development lifecycle are covered in these documents:
 
-* [Defining the Problem](./docs/solution.md#what-problem-are-we-solving)
-* [Analyzing the Product Lifecycle](./docs/product_life.md)
-* [Analyzing the Supply Chain](./docs/supply_chain.md)
-* [Exploring Solution Architectures](./docs/solution.md#whiteboard-architecture---options)
-* [Creating Product Backlogs](./docs/solution.md#product-backlogs)
-
-> **NOTE:**
-> 1.  The development lifecycle is applicable to other supply chain scenarios.
-> 2.  The intermediate steps, such as translating a high-level architecture to a detailed product backlog, are not explicitly shown in this project.
-> 3.  The findings presented in the product lifecycle analysis, supply chain analysis, and solution architecture documents are simplified for educational purposes. In a real-world project, these documents would be constantly evolving and synchronized with user stories.
+* [Defining the Problem](./docs/challenges.md#identify-challenges)
+  * [Analyzing the Product Lifecycle](./docs/challenges.md#product-lifecycle-analysis)
+  * [Analyzing the Supply Chain](./docs/challenges.md#supply-chain-analysis)
+* [Exploring Solution Architectures](./docs/solution.md##solution-architecture-options)
+* [Creating Product Backlogs](./docs/solution.md#whiteboard-architecture-and-product-backlogs)
 
 ## Disclaimer
 
