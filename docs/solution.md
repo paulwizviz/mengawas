@@ -55,7 +55,7 @@ After analyzing the pros and cons of each option, `mengawas` selected the blockc
 
 Having considered and chosen the architecture to aim for, the next step is to identify the appropriate product backlog. For supply chain related scenarios where the participants are independent and may have its own existing digital infrastructure, assigning individual product backlogs is appropriate.
 
-> **NOTE:** In this context, a product backlog is a collection of epics, user stories, and chores representing the features and functionality required by a particular entity.
+> **NOTE:** A product backlog is a collection of epics, user stories, and chores representing the features and functionality required by a particular entity.
 
 In the case of `mengawas`, the following product backlogs were identified based on the chosen blockchain architecture. Each backlog represents deliverables for a specific supply chain participant:
 
