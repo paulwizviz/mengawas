@@ -10,6 +10,8 @@ Having identified and detailed the nature of the challenges, identify potential 
 > 1. A whiteboard architecture is an exercise in painting a broad picture of options available. It is not intended to focus on a specific solution.
 > 2. Whiteboard architecture design is often an iterative process. The chosen architecture may evolve as circumstances change, even during implementation. The option of pivoting to a completely new architecture should also be contemplated if extremely necessary from a commerical viability perspective.
 
+### The `mengawas` case study
+
 For `mengawas`, having identified the challenges, it was decided to deliver a track and trace solution leveraging the Internet of Things (IoT) across the supply chain.  Two broad architectural options were considered:
 
 * **Hub-and-Spoke Architecture:** (Figure 1)
@@ -56,6 +58,8 @@ After analyzing the pros and cons of each option, `mengawas` selected the blockc
 Having considered and chosen the architecture to aim for, the next step is to identify the appropriate product backlog. For supply chain related scenarios where the participants are independent and may have its own existing digital infrastructure, assigning individual product backlogs is appropriate.
 
 > **NOTE:** A product backlog is a collection of epics, user stories, and chores representing the features and functionality required by a particular entity.
+
+### The `mengawas` case study
 
 In the case of `mengawas`, the following product backlogs were identified based on the chosen blockchain architecture. Each backlog represents deliverables for a specific supply chain participant:
 
