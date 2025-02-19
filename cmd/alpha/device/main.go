@@ -57,7 +57,10 @@ func main() {
 			Content: []byte(fmt.Sprintf("Time: %v", t)),
 		}
 		// Serialize model
-		cborD, _ := cbor.Marshal(d)
+		cborD, err := cbor.Marshal(d)
+		if err != nil {
+			log.Fatal(err)
+		}
 		// Publish
 		client.Publish(topic, 0, false, cborD)
 	}
