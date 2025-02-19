@@ -62,7 +62,7 @@ To address these challenges, `Mengawas` proposes a solution integrating IoT and 
 Key features include:
 - **IoT sensors** to monitor grape quality, fermentation conditions, and transportation environments.
 - **Blockchain integration** for tamper-proof record-keeping, ensuring transparency across participants.
-- **Smart contracts** to automate compliance verification and streamline transactions.
+- **AI** to perform analysis of data from IoT
 - **Consumer-facing interface** to provide provenance tracking, allowing customers to verify wine authenticity and sustainability efforts.
 
 The specific solutions for each participant are detailed in:
