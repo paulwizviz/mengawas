@@ -41,7 +41,10 @@ func listen(uri *url.URL, topic string, c chan string) {
 		p := msg.Payload()
 		// Unmarshal payload
 		var d nmodel.Data
-		cbor.Unmarshal(p, &d)
+		err := cbor.Unmarshal(p, &d)
+		if err != nil {
+			log.Println(err)
+		}
 		c <- fmt.Sprintf("* [%s] +----+ %v\n", msg.Topic(), string(d.Content))
 	})
 }

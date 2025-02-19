@@ -1,27 +1,77 @@
-# `Mengawas`: Demonstrating Solutions for Supply Chain Challenges (Educational Project)
+# `Mengawas`: A Simulated IoT, AI and DLT Powered Wine Making Supply Chain
 
-A supply chain is a network of organisations, people, activities, data, and resources involved in moving a product or service from origin to consumer. Key participants typically include suppliers, processors, warehouses, distributors, merchants, and consumers.
+This project simulates how IoT (Internet of Things), AI (Artificial Intelligence), and DLT (Distributed Ledger Technology) could optimise a wine-making supply chain, serving as a conceptual and educational case study rather than a production-ready implementation.
 
-The pain points experienced in a supply chain differ significantly from those in a typical business-to-consumer scenario. Building a business-to-consumer solution often focuses on the needs of a representative end-user. In contrast, a supply chain involves multiple independent participants who must coordinate their activities, often peer-to-peer. The challenge lies in addressing the unique pain points of *each* participant.
+## Project Overview
 
-`Mengawas` is an educational project demonstrating techniques for developing solutions to supply chain challenges. It uses a simulated wine-making process as a case study to illustrate key concepts and development stages. The following sections detail the development lifecycle used in `Mengawas` to illustrate these techniques.
-
-## Development Lifecycle
-
-`Mengawas` follows a simplified development lifecycle (Figure 1) to illustrate the process of discovering, planning, and managing solutions for supply chain challenges. While `Mengawas` uses a simulated wine-making process, this lifecycle is applicable to other supply chain scenarios.
+`Mengawas` simulates a wine-making supply chain based on the process illustrated in Figure 1.
 
 <figure>
-  <img src="./assets/img/dev-lifecycle.png" alt="Mengawas development lifecycle" />
-  <figcaption>Figure 1: `Mengawas` Development Lifecycle.</figcaption>
+  <img src="./assets/img/winemaking.webp" alt="The Wine Making Process" />
+  <figcaption>Figure 1: The wine making process.</figcaption>
 </figure>
 
-Detailed discussions and illustrations of the `Mengawas` development lifecycle are covered in these documents:
+In real-world wine making, it is rare for a single entity to execute the entire process. Instead, multiple specialised entities collaborate, forming a supply chain as shown in Figure 2.
 
-* [Defining the Problem](./docs/challenges.md#identify-challenges) (Identifying key challenges faced by supply chain participants)
-    * [Analyzing the Product Lifecycle](./docs/challenges.md#product-lifecycle-analysis) (Understanding product creation and distribution to ensure integrity and build consumer confidence)
-    * [Analyzing the Supply Chain](./docs/challenges.md#supply-chain-analysis) (Identifying key participants and their roles in the supply chain)
-* [Exploring Solution Architectures](./docs/solution.md##solution-architecture-options) (Considering different architectural options for addressing identified challenges)
-* [Creating Product Backlogs](./docs/solution.md#whiteboard-architecture-and-product-backlogs) (Translating the chosen architecture into actionable work items)
+<figure>
+  <img src="./assets/img/supplychain.png" alt="The Wine Making Supply Chain" />
+  <figcaption>Figure 2: The wine making supply chain.</figcaption>
+</figure>
+
+> **NOTE**:
+> `Mengawas` has identified a single entity (i.e. processor) performing the tasks of juice extraction, fermentation, pressing, and filtration. This simplification is for demonstration purposes only; in reality, these tasks could be handled by multiple entities.
+
+For the purpose of the `Mengawas` case study, the identified supply chain participants are:
+
+* **The product chain** – directly responsible for wine making (Figure 3):
+  * **Vineyard One:** Supplies two grades of grapes (30% to Pete Processor for red wine and 70% to Petra Processor for white wine).
+  * **Vineyard Two:** Supplies grapes exclusively to Petra Processor.
+  * **Processor One:** Processes red wine grapes.
+  * **Processor Two:** Processes white wine grapes.
+  * **Warehouse:** Stores bottled wine.
+  * **Merchant:** A wine merchant with exclusive distribution rights to consumers.
+  * **Alice and Bob:** Consumers.
+* **The support chain** – indirectly involved in wine making. For `Mengawas`, only **Transport** has been identified.
+* **The regulator chain** – provides regulatory oversight. Two participants have been identified: **Wine Grader** and **Customs**.
+
+<figure>
+  <img src="./assets/img/product-chain.png" alt="The Product Chain" />
+  <figcaption>Figure 3: The product chain.</figcaption>
+</figure>
+
+## Proposed Solution
+
+Unlike business-to-customer applications, which cater to a relatively homogeneous set of end users, supply chain solutions must accommodate diverse participants with distinct operational requirements. A successful solution must address the specific needs of each stakeholder while ensuring interoperability across the chain.
+
+`Mengawas` has identified key challenges confronting the wine-making supply chain:
+
+* **Climate Change:** Increasingly unpredictable weather patterns lead to fluctuating yields and impact grape quality.
+* **Information Silos:** The decentralised nature of the supply chain results in fragmented information sharing, hindering collaboration and traceability.
+* **Varying Levels of Digitalisation:** Participants have different levels of competence and investment in digital technologies, making a one-size-fits-all solution impractical.
+
+> **NOTE:**  
+> These challenges are based on a limited sample of responses from industry experts and are highlighted purely for case study purposes.
+
+To address these challenges, `Mengawas` proposes a solution integrating IoT and Blockchain to improve transparency, efficiency, and traceability across the supply chain (Figure 4).
+
+<figure>
+  <img src="./assets/img/blockchain.png" alt="The Proposed Solution" />
+  <figcaption>Figure 4: The proposed solution.</figcaption>
+</figure>
+
+Key features include:
+- **IoT sensors** to monitor grape quality, fermentation conditions, and transportation environments.
+- **Blockchain integration** for tamper-proof record-keeping, ensuring transparency across participants.
+- **Smart contracts** to automate compliance verification and streamline transactions.
+- **Consumer-facing interface** to provide provenance tracking, allowing customers to verify wine authenticity and sustainability efforts.
+
+The specific solutions for each participant are detailed in:
+
+* [Vineyards](./docs/vineyard.md)
+* [Processors](./docs/processors.md)
+* [Warehouse](./docs/warehouse.md)
+* [Merchants](./docs/merchant.md)
+* [Consumers](./docs/consumers.md)
 
 ## Disclaimer
 
