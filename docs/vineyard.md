@@ -22,13 +22,11 @@ Vineyard Two is contracted to deliver grapes exclusively to Processor Two, which
 * Vineyard One will integrate IoT sensors to capture soil and weather data.
 * An AI-based data analytics solution will be implemented to help both Vineyard One and Vineyard Two predict yield.
 
-## Initial Research Data
-
-An initial study was conducted to determine the relationship between grape-growing conditions and grape yield quality.
+## Background information
 
 ### Parameters for Determining Grape Quality
 
-#### 1. Grapes for Fine-Quality Wines
+1. Grapes for Fine-Quality Wines
 
 | Measure | Unit | Example Values |
 |---|---|---|
@@ -41,7 +39,7 @@ An initial study was conducted to determine the relationship between grape-growi
 | Berry Skin Thickness | mm | 0.15–0.25 mm (reds have thicker skins) |
 | Firmness (Pressure Resistance) | Newtons (N) | 0.3–0.5 N (measured with a texture analyser) |
 
-#### 2. Grapes for Medium-Quality Wines
+2. Grapes for Medium-Quality Wines
 
 | Measure | Unit | Example Values |
 |---|---|---|
@@ -56,7 +54,7 @@ An initial study was conducted to determine the relationship between grape-growi
 
 ### Factors Influencing Grape Quality
 
-#### 1. Climatic Factors (Temperature, Rainfall, Sunlight)
+1. Climatic Factors (Temperature, Rainfall, Sunlight)
 
 | Factor | Unit | Fine Wine Grapes | Medium-Quality Grapes |
 |---|---|---|---|
@@ -65,7 +63,7 @@ An initial study was conducted to determine the relationship between grape-growi
 | Annual Rainfall | mm/year | 400–800 mm | 600–1000 mm |
 | Sunlight Hours (Growing Season) | Hours | 1200–1800 hrs | 1000–1600 hrs |
 
-#### 2. Soil Composition & Nutrients
+2. Soil Composition & Nutrients
 
 | Factor | Unit | Fine Wine Grapes | Medium-Quality Grapes |
 |---|---|---|---|
@@ -76,7 +74,7 @@ An initial study was conducted to determine the relationship between grape-growi
 | Potassium (K) | mg/kg | 100–250 mg/kg | 150–300 mg/kg |
 | Calcium (Ca) | mg/kg | 500–1000 mg/kg | 800–1500 mg/kg |
 
-### Key Takeaways
+Key Takeaways
 
 * Fine wine grapes need moderate climates, well-drained soils, controlled water stress, and low yields.
 * Medium-quality grapes require slightly higher temperatures, more water, and moderate yields.
