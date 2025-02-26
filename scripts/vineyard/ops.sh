@@ -16,7 +16,7 @@ export INFLUX_IMAGE=influxdb:2.6
 export PGADMIN_IMAGE=dpage/pgadmin4:8.9
 export PLSQL_IMAGE=postgres:16.2-alpine3.19
 
-export NETWORK=mengaws_network
+export NETWORK=mengaws_vineyard
 
 case $COMMAND in
     "clean")
