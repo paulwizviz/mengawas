@@ -1,0 +1,18 @@
+services:
+
+  # The MQTT Broker
+  mosquitto-broker:
+    image: ${MOSQUITTO_IMAGE}
+    container_name: ${MOSQUITTO_CONTAINER}
+    ports:
+      - 1883:1883
+      - 9001:9001
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+    networks:
+      - local
+
+networks:
+  local:
+    driver: bridge
+    name: ${NETWORK}

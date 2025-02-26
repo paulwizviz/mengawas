@@ -10,3 +10,6 @@
 
 # psql
 dbfiles/
+
+# influx
+influxdb_data/
