@@ -22,9 +22,27 @@ Vineyard Two is contracted to deliver grapes exclusively to Processor Two, which
 * Vineyard One will integrate IoT sensors to capture soil and weather data.
 * An AI-based data analytics solution will be implemented to help both Vineyard One and Vineyard Two predict yield.
 
+<figure>
+  <img src="../assets/img/vineyard-solution.png" alt="Solution for Vineyards" />
+  <figcaption>Figure 1: An overview of the proposed solution.</figcaption>
+</figure>
+
+The proposed solution will address two use cases:
+
+### Use case 1
+
+* IoT sensors (wind, soil and temperature) are read and stored in InfluxDB via MQTT protocols
+* Farmer John uses a Desktop and Mobile devices to interact with local AI model (stored locally) via an AI broker (e.g. Ollama) asking the model the analyse data collected in InfluxDB.
+
+### Use case 2
+
+* IoT sensors collect data stored in InfluxDB (input parameters).
+* A camera captures the growing grapes over the same time period as the input parameter (result).
+* The input parameters and results are used to teach the AI model.
+
 ## Background information
 
-### Parameters for Determining Grape Quality
+### Objective measures of grape quality
 
 1. Grapes for Fine-Quality Wines
 
@@ -52,7 +70,7 @@ Vineyard Two is contracted to deliver grapes exclusively to Processor Two, which
 | Berry Skin Thickness | mm | 0.10–0.20 mm |
 | Firmness (Pressure Resistance) | Newtons (N) | 0.2–0.4 N |
 
-### Factors Influencing Grape Quality
+### Factors influencing grape quality whilst growing
 
 1. Climatic Factors (Temperature, Rainfall, Sunlight)
 
