@@ -7,3 +7,9 @@ var (
 	ErrNotUTC             = errors.New("not valud UTC")
 	ErrInvalidMeasureCBOR = errors.New("invalid measurement cbor")
 )
+
+var (
+	TypeTemperature = "TemperateMeasurement"
+	TypeWind        = "WindMeasurement"
+	TypeSoil        = "SoilMeasurement"
+)

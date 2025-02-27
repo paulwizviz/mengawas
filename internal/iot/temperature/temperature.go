@@ -49,10 +49,11 @@ func NewKelvin(value float32) Unit {
 }
 
 type Measurement struct {
-	location  string
-	deviceID  string
-	timeStamp time.Time
-	unit      Unit
+	location    string
+	deviceID    string
+	measureType string
+	timeStamp   time.Time
+	unit        Unit
 }
 
 func (m Measurement) Location() string {
@@ -67,6 +68,10 @@ func (m Measurement) Timestamp() time.Time {
 	return m.timeStamp
 }
 
+func (m Measurement) Type() string {
+	return m.measureType
+}
+
 func (m Measurement) Unit() Unit {
 	return m.unit
 }
@@ -74,6 +79,7 @@ func (m Measurement) Unit() Unit {
 type aux struct {
 	Location  string  `cbor:"location"`
 	DeviceID  string  `cbor:"deviceid"`
+	Type      string  `cbor:"type"`
 	TimeStamp int64   `cbor:"timestamp"`
 	TempValue float32 `cbor:"tempvalue"`
 	TempUnit  string  `cbor:"tempunit"`
@@ -84,6 +90,7 @@ func (m Measurement) MarshalCBOR() ([]byte, error) {
 	aux := aux{
 		Location:  m.location,
 		DeviceID:  m.deviceID,
+		Type:      m.measureType,
 		TimeStamp: tm,
 		TempValue: m.unit.value,
 		TempUnit:  m.unit.unit,
@@ -92,13 +99,7 @@ func (m Measurement) MarshalCBOR() ([]byte, error) {
 }
 
 func (m *Measurement) UnmarshalCBOR(data []byte) error {
-	var aux struct {
-		Location  string
-		DeviceID  string
-		TimeStamp int64
-		TempValue float32
-		TempUnit  string
-	}
+	var aux aux
 	err := cbor.Unmarshal(data, &aux)
 	if err != nil {
 		return err
@@ -108,6 +109,7 @@ func (m *Measurement) UnmarshalCBOR(data []byte) error {
 
 	m.location = aux.Location
 	m.deviceID = aux.DeviceID
+	m.measureType = aux.Type
 	m.timeStamp = tm
 	m.unit = Unit{
 		value: aux.TempValue,
@@ -118,10 +120,11 @@ func (m *Measurement) UnmarshalCBOR(data []byte) error {
 
 func NewMeasure(location string, deviceID string, timeStamp time.Time, unit Unit) Measurement {
 	return Measurement{
-		location:  location,
-		deviceID:  deviceID,
-		timeStamp: timeStamp,
-		unit:      unit,
+		location:    location,
+		deviceID:    deviceID,
+		measureType: iot.TypeTemperature,
+		timeStamp:   timeStamp,
+		unit:        unit,
 	}
 }
 

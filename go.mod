@@ -2,11 +2,7 @@ module mengawas
 
 go 1.21.3
 
-require (
-	github.com/fxamacker/cbor/v2 v2.5.0
-	github.com/golang/protobuf v1.5.3
-	google.golang.org/protobuf v1.31.0
-)
+require github.com/fxamacker/cbor/v2 v2.5.0
 
 require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
