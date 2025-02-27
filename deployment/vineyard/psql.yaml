@@ -1,9 +1,7 @@
-version: '3.7'
-
 services:
 
   server:
-    image: postgres:${PSQL_VER}
+    image: ${PLSQL_IMAGE}
     container_name: server
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
@@ -17,7 +15,7 @@ services:
       - local
 
   pgadmin:
-    image: dpage/pgadmin4:${PGADMIN_VER}
+    image: ${PGADMIN_IMAGE}
     container_name: pgadmin
     environment:
       PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
@@ -33,4 +31,5 @@ services:
       
 networks:
   local:
+    driver: bridge
     name: $NETWORK

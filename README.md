@@ -19,19 +19,19 @@ In real-world wine making, it is rare for a single entity to execute the entire 
 </figure>
 
 > **NOTE**:
-> `Mengawas` has identified a single entity (i.e. processor) performing the tasks of juice extraction, fermentation, pressing, and filtration. This simplification is for demonstration purposes only; in reality, these tasks could be handled by multiple entities.
+> `Mengawas` has identified a single entity (i.e. processor) performing the tasks of juice extraction, fermentation, pressing, filtration and aging. This simplification is for demonstration purposes only; in reality, these tasks could be handled by multiple entities.
 
 For the purpose of the `Mengawas` case study, the identified supply chain participants are:
 
 * **The product chain** – directly responsible for wine making (Figure 3):
   * **Vineyard One:** Supplies two grades of grapes (30% to Pete Processor for red wine and 70% to Petra Processor for white wine).
   * **Vineyard Two:** Supplies grapes exclusively to Petra Processor.
-  * **Processor One:** Processes red wine grapes.
-  * **Processor Two:** Processes white wine grapes.
+  * **Processor One:** Processes grapes for fine wine.
+  * **Processor Two:** Processes grapes for medium quality wine.
   * **Warehouse:** Stores bottled wine.
   * **Merchant:** A wine merchant with exclusive distribution rights to consumers.
   * **Alice and Bob:** Consumers.
-* **The support chain** – indirectly involved in wine making. For `Mengawas`, only **Transport** has been identified.
+* **The support chain** – indirectly involved in wine making. For `Mengawas`, only one **Transport** has been identified.
 * **The regulator chain** – provides regulatory oversight. Two participants have been identified: **Wine Grader** and **Customs**.
 
 <figure>
@@ -62,7 +62,7 @@ To address these challenges, `Mengawas` proposes a solution integrating IoT and 
 Key features include:
 - **IoT sensors** to monitor grape quality, fermentation conditions, and transportation environments.
 - **Blockchain integration** for tamper-proof record-keeping, ensuring transparency across participants.
-- **Smart contracts** to automate compliance verification and streamline transactions.
+- **AI** to perform analysis of data from IoT
 - **Consumer-facing interface** to provide provenance tracking, allowing customers to verify wine authenticity and sustainability efforts.
 
 The specific solutions for each participant are detailed in:
@@ -72,6 +72,7 @@ The specific solutions for each participant are detailed in:
 * [Warehouse](./docs/warehouse.md)
 * [Merchants](./docs/merchant.md)
 * [Consumers](./docs/consumers.md)
+* [Transporter](./docs/transporters.md)
 
 ## Disclaimer
 
