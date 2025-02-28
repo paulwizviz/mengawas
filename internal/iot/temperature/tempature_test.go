@@ -76,8 +76,10 @@ func TestSerialiseUnit(t *testing.T) {
 				c := NewCelsius(70)
 				b, _ := cbor.Marshal(c)
 				var got Unit
-				cbor.Unmarshal(b, &got)
-				assert.Equal(t, tc.want, got, fmt.Sprintf("Want: %v Got: %v", tc.want, got))
+				err := cbor.Unmarshal(b, &got)
+				if assert.Empty(t, err, "unmarshal error") {
+					assert.Equal(t, tc.want, got, fmt.Sprintf("Want: %v Got: %v", tc.want, got))
+				}
 			}
 		})
 	}
