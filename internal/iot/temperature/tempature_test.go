@@ -62,10 +62,24 @@ func TestSerialiseUnit(t *testing.T) {
 		want Unit
 	}{
 		{
-			name: "celsius",
+			name: Celsius,
 			want: Unit{
 				value: 70,
 				unit:  Celsius,
+			},
+		},
+		{
+			name: Fahrenheit,
+			want: Unit{
+				value: 70,
+				unit:  Fahrenheit,
+			},
+		},
+		{
+			name: Kelvin,
+			want: Unit{
+				value: 70,
+				unit:  Kelvin,
 			},
 		},
 	}
@@ -74,6 +88,22 @@ func TestSerialiseUnit(t *testing.T) {
 		t.Run(fmt.Sprintf("case %d", i), func(t *testing.T) {
 			if tc.name == Celsius {
 				c := NewCelsius(70)
+				b, _ := cbor.Marshal(c)
+				var got Unit
+				err := cbor.Unmarshal(b, &got)
+				if assert.Empty(t, err, "unmarshal error") {
+					assert.Equal(t, tc.want, got, fmt.Sprintf("Want: %v Got: %v", tc.want, got))
+				}
+			} else if tc.name == Fahrenheit {
+				c := NewFahrenheit(70)
+				b, _ := cbor.Marshal(c)
+				var got Unit
+				err := cbor.Unmarshal(b, &got)
+				if assert.Empty(t, err, "unmarshal error") {
+					assert.Equal(t, tc.want, got, fmt.Sprintf("Want: %v Got: %v", tc.want, got))
+				}
+			} else {
+				c := NewKelvin(70)
 				b, _ := cbor.Marshal(c)
 				var got Unit
 				err := cbor.Unmarshal(b, &got)
