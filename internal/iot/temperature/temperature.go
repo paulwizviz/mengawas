@@ -1,6 +1,14 @@
 package temperature
 
-import "github.com/fxamacker/cbor/v2"
+import (
+	"encoding/csv"
+	"fmt"
+	"math/rand"
+	"os"
+	"time"
+
+	"github.com/fxamacker/cbor/v2"
+)
 
 var (
 	Celsius    = "C"
@@ -64,4 +72,47 @@ func NewKelvin(value float32) Unit {
 		value: value,
 		unit:  Kelvin,
 	}
+}
+
+func SimulateDataToCSV(filename string, numRecords int, minTemp, maxTemp float64, startTime, endTime time.Time, spikeFrequency float64, spikeAmplitude float64, tempUnit string) error {
+	file, err := os.Create(filename)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	writer := csv.NewWriter(file)
+	defer writer.Flush()
+
+	header := []string{"timestamp", "temperature", "unit"}
+	if err := writer.Write(header); err != nil {
+		return err
+	}
+
+	duration := endTime.Sub(startTime)
+	timeStep := duration / time.Duration(numRecords)
+	currentTime := startTime
+
+	for i := 0; i < numRecords; i++ {
+		temperature := minTemp + rand.Float64()*(maxTemp-minTemp)
+
+		if rand.Float64() < spikeFrequency {
+			spike := spikeAmplitude * float64(rand.Intn(2)*2-1) // Randomly choose + or -
+			temperature += spike
+		}
+
+		if temperature < minTemp {
+			temperature = minTemp
+		}
+		if temperature > maxTemp {
+			temperature = maxTemp
+		}
+
+		record := []string{currentTime.Format(time.RFC3339), fmt.Sprintf("%.2f", temperature), tempUnit}
+		if err := writer.Write(record); err != nil {
+			return err
+		}
+		currentTime = currentTime.Add(timeStep)
+	}
+	return nil
 }

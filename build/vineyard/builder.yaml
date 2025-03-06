@@ -1,0 +1,19 @@
+services:
+
+  temperature:
+    build:
+      context: ../../
+      dockerfile: ./build/vineyard/temperature.dockerfile
+      args:
+        GO_VER: 1.23
+        APP_NAME: ${TEMPERATURE_SENSOR}
+    image: ${TEMPERATURE_SENSOR:-mengawas/tempsensor:current}
+
+  influxwriter:
+    build:
+      context: ../../
+      dockerfile: ./build/vineyard/influxwriter.dockerfile
+      args:
+        GO_VER: 1.23
+        APP_NAME: ${INFLUX_WRITER}
+    image: ${INFLUX_WRTIER:-mengawas/influxwriter:current}

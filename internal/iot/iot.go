@@ -2,6 +2,7 @@ package iot
 
 import (
 	"errors"
+	"mengawas/internal/iot/acidity"
 	"mengawas/internal/iot/temperature"
 	"time"
 
@@ -14,22 +15,16 @@ var (
 	ErrInvalidMeasureCBOR = errors.New("invalid measurement cbor")
 )
 
-var (
-	TypeTemperature = "TemperateMeasurement"
-	TypeWind        = "WindMeasurement"
-	TypeSoil        = "SoilMeasurement"
-)
-
 type UnitOfMeasure interface {
-	temperature.Unit
+	temperature.Unit | acidity.Unit
 }
 
 type Measurement[U UnitOfMeasure] struct {
-	location    string
-	deviceID    string
-	measureType string
-	timeStamp   time.Time
-	unit        U
+	location     string
+	deviceID     string
+	measureGroup string
+	timeStamp    time.Time
+	unit         U
 }
 
 func (m Measurement[U]) Location() string {
@@ -45,7 +40,7 @@ func (m Measurement[U]) Timestamp() time.Time {
 }
 
 func (m Measurement[U]) Type() string {
-	return m.measureType
+	return m.measureGroup
 }
 
 func (m Measurement[U]) Unit() U {
@@ -64,7 +59,7 @@ func (m Measurement[U]) MarshalCBOR() ([]byte, error) {
 	aux := aux[U]{
 		Location:  m.location,
 		DeviceID:  m.deviceID,
-		Type:      m.measureType,
+		Type:      m.measureGroup,
 		TimeStamp: m.timeStamp,
 		Unit:      m.unit,
 	}
@@ -79,18 +74,18 @@ func (m *Measurement[U]) UnmarshalCBOR(data []byte) error {
 	}
 	m.location = aux.Location
 	m.deviceID = aux.DeviceID
-	m.measureType = aux.Type
+	m.measureGroup = aux.Type
 	m.timeStamp = aux.TimeStamp
 	m.unit = aux.Unit
 	return nil
 }
 
-func NewMeasurement[U UnitOfMeasure](location string, deviceID string, measureType string, ts time.Time, u U) Measurement[U] {
+func NewMeasurement[U UnitOfMeasure](location string, deviceID string, measureGroup string, ts time.Time, u U) Measurement[U] {
 	return Measurement[U]{
-		location:    location,
-		deviceID:    deviceID,
-		measureType: measureType,
-		timeStamp:   ts,
-		unit:        u,
+		location:     location,
+		deviceID:     deviceID,
+		measureGroup: measureGroup,
+		timeStamp:    ts,
+		unit:         u,
 	}
 }

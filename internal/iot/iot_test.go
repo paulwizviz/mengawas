@@ -33,11 +33,11 @@ func TestNewMeasure(t *testing.T) {
 		newMeasureTest[temperature.Unit]{
 			input: temperature.NewCelsius(70),
 			want: Measurement[temperature.Unit]{
-				location:    "location",
-				deviceID:    "deviceID",
-				measureType: "measure type",
-				timeStamp:   ts,
-				unit:        temperature.NewCelsius(70),
+				location:     "location",
+				deviceID:     "deviceID",
+				measureGroup: "measure type",
+				timeStamp:    ts,
+				unit:         temperature.NewCelsius(70),
 			},
 		},
 	}
