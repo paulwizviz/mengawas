@@ -1,8 +1,10 @@
 package temperature
 
 import (
+	"encoding/csv"
 	"fmt"
-	"mengawas/internal/iot"
+	"math/rand"
+	"os"
 	"time"
 
 	"github.com/fxamacker/cbor/v2"
@@ -27,6 +29,30 @@ func (u Unit) Unit() string {
 	return u.unit
 }
 
+type aux struct {
+	Value float32 `cbor:"value"`
+	Unit  string  `cbor:"unit"`
+}
+
+func (u Unit) MarshalCBOR() ([]byte, error) {
+	aux := aux{
+		Value: u.value,
+		Unit:  u.unit,
+	}
+	return cbor.Marshal(aux)
+}
+
+func (u *Unit) UnmarshalCBOR(data []byte) error {
+	var aux aux
+	err := cbor.Unmarshal(data, &aux)
+	if err != nil {
+		return err
+	}
+	u.value = aux.Value
+	u.unit = aux.Unit
+	return nil
+}
+
 func NewCelsius(value float32) Unit {
 	return Unit{
 		value: value,
@@ -48,98 +74,45 @@ func NewKelvin(value float32) Unit {
 	}
 }
 
-type Measurement struct {
-	location    string
-	deviceID    string
-	measureType string
-	timeStamp   time.Time
-	unit        Unit
-}
-
-func (m Measurement) Location() string {
-	return m.location
-}
-
-func (m Measurement) DeviceID() string {
-	return m.deviceID
-}
-
-func (m Measurement) Timestamp() time.Time {
-	return m.timeStamp
-}
-
-func (m Measurement) Type() string {
-	return m.measureType
-}
-
-func (m Measurement) Unit() Unit {
-	return m.unit
-}
-
-type aux struct {
-	Location  string  `cbor:"location"`
-	DeviceID  string  `cbor:"deviceid"`
-	Type      string  `cbor:"type"`
-	TimeStamp int64   `cbor:"timestamp"`
-	TempValue float32 `cbor:"tempvalue"`
-	TempUnit  string  `cbor:"tempunit"`
-}
-
-func (m Measurement) MarshalCBOR() ([]byte, error) {
-	tm := m.timeStamp.Unix()
-	aux := aux{
-		Location:  m.location,
-		DeviceID:  m.deviceID,
-		Type:      m.measureType,
-		TimeStamp: tm,
-		TempValue: m.unit.value,
-		TempUnit:  m.unit.unit,
-	}
-	return cbor.Marshal(aux)
-}
-
-func (m *Measurement) UnmarshalCBOR(data []byte) error {
-	var aux aux
-	err := cbor.Unmarshal(data, &aux)
+func SimulateDataToCSV(filename string, numRecords int, minTemp, maxTemp float64, startTime, endTime time.Time, spikeFrequency float64, spikeAmplitude float64, tempUnit string) error {
+	file, err := os.Create(filename)
 	if err != nil {
 		return err
 	}
+	defer file.Close()
 
-	tm := time.Unix(aux.TimeStamp, 0)
+	writer := csv.NewWriter(file)
+	defer writer.Flush()
 
-	m.location = aux.Location
-	m.deviceID = aux.DeviceID
-	m.measureType = aux.Type
-	m.timeStamp = tm
-	m.unit = Unit{
-		value: aux.TempValue,
-		unit:  aux.TempUnit,
+	header := []string{"timestamp", "temperature", "unit"}
+	if err := writer.Write(header); err != nil {
+		return err
+	}
+
+	duration := endTime.Sub(startTime)
+	timeStep := duration / time.Duration(numRecords)
+	currentTime := startTime
+
+	for i := 0; i < numRecords; i++ {
+		temperature := minTemp + rand.Float64()*(maxTemp-minTemp)
+
+		if rand.Float64() < spikeFrequency {
+			spike := spikeAmplitude * float64(rand.Intn(2)*2-1) // Randomly choose + or -
+			temperature += spike
+		}
+
+		if temperature < minTemp {
+			temperature = minTemp
+		}
+		if temperature > maxTemp {
+			temperature = maxTemp
+		}
+
+		record := []string{currentTime.Format(time.RFC3339), fmt.Sprintf("%.2f", temperature), tempUnit}
+		if err := writer.Write(record); err != nil {
+			return err
+		}
+		currentTime = currentTime.Add(timeStep)
 	}
 	return nil
-}
-
-func NewMeasure(location string, deviceID string, timeStamp time.Time, unit Unit) Measurement {
-	return Measurement{
-		location:    location,
-		deviceID:    deviceID,
-		measureType: iot.TypeTemperature,
-		timeStamp:   timeStamp,
-		unit:        unit,
-	}
-}
-
-func NewMeasureS(location string, deviceID string, utcTimeStamp string, unit Unit) (Measurement, error) {
-	tm, err := time.Parse(time.RFC3339, utcTimeStamp)
-	if err != nil {
-		return Measurement{}, fmt.Errorf("%w-%v", iot.ErrNewMeasure, err)
-	}
-	if tm.Location() != time.UTC {
-		return Measurement{}, fmt.Errorf("%w-%v", iot.ErrNotUTC, err)
-	}
-	return Measurement{
-		location:  location,
-		deviceID:  deviceID,
-		timeStamp: tm,
-		unit:      unit,
-	}, err
 }
