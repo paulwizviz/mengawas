@@ -3,6 +3,8 @@ services:
   temperature:
     build:
       context: ../../
+      platforms:
+        - "linux/amd64"
       dockerfile: ./build/vineyard/temperature.dockerfile
       args:
         GO_VER: 1.23
@@ -12,6 +14,8 @@ services:
   influxwriter:
     build:
       context: ../../
+      platforms:
+        - "linux/amd64"
       dockerfile: ./build/vineyard/influxwriter.dockerfile
       args:
         GO_VER: 1.23
